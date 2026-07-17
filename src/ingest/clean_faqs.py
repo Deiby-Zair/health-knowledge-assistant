@@ -1,8 +1,6 @@
 import json
-
-from src.utils.text_cleaning import clean_html
-
 from pathlib import Path
+from src.utils.text_cleaning import clean_html
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
@@ -26,4 +24,4 @@ for item in items:
 with open(OUTPUT_FILE, "w", encoding="utf-8") as f:
     json.dump(faqs, f, ensure_ascii=False, indent=2)
 
-print(f"FAQs limpias: {len(faqs)}")
+print(f"Clean FAQs: {len(faqs)}")

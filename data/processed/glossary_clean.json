@@ -1,8 +1,8 @@
 [
   {
     "id": 1,
-    "termino": "Accesibilidad ",
-    "definicion": "Condición que permite, en cualquier espacio o ambiente ya sea interior o exterior, el fácil y seguro desplazamiento de la población en general y el uso en forma confiable, eficiente y autónoma de los servicios instalados. "
+    "termino": "Accesibilidad",
+    "definicion": "Condición que permite, en cualquier espacio o ambiente ya sea interior o exterior, el fácil y seguro desplazamiento de la población en general y el uso en forma confiable, eficiente y autónoma de los servicios instalados."
   },
   {
     "id": 3,
@@ -12,7 +12,7 @@
   {
     "id": 4,
     "termino": "Atención en Salud Ocupacional y Riesgos Profesionales",
-    "definicion": "Conjunto de servicios que se brindan a trabajadores y  empresarios en el marco propio de los procesos de aseguramiento, así como las actividades, procedimientos e intervenciones en las fases de promoción de la salud en los centros de trabajo, prevención de daños a la salud derivados de factores de riesgo ocupacional, mejoramiento de condiciones de trabajo y rehabilitación integral de los trabajadores que han sufrido daños a su salud."
+    "definicion": "Conjunto de servicios que se brindan a trabajadores y empresarios en el marco propio de los procesos de aseguramiento, así como las actividades, procedimientos e intervenciones en las fases de promoción de la salud en los centros de trabajo, prevención de daños a la salud derivados de factores de riesgo ocupacional, mejoramiento de condiciones de trabajo y rehabilitación integral de los trabajadores que han sufrido daños a su salud."
   },
   {
     "id": 6,
@@ -37,12 +37,12 @@
   {
     "id": 10,
     "termino": "Calidad de la Atención en Salud Ocupacional",
-    "definicion": "Provisión  de servicios accesibles y equitativos, con un nivel profesional óptimo, que tiene en cuenta los recursos disponibles y logra adhesión y satisfacción de trabajadores y empresarios."
+    "definicion": "Provisión de servicios accesibles y equitativos, con un nivel profesional óptimo, que tiene en cuenta los recursos disponibles y logra adhesión y satisfacción de trabajadores y empresarios."
   },
   {
     "id": 12,
-    "termino": "Cobertura. ",
-    "definicion": "Es el derecho al aseguramiento a través de las  administradoras de riesgos profesionales, quienes asumen los costos de prestaciones asistenciales  y económicas derivadas de un accidente  de trabajo o  enfermedad profesional."
+    "termino": "Cobertura.",
+    "definicion": "Es el derecho al aseguramiento a través de las administradoras de riesgos profesionales, quienes asumen los costos de prestaciones asistenciales y económicas derivadas de un accidente de trabajo o enfermedad profesional."
   },
   {
     "id": 13,
@@ -112,7 +112,7 @@
   {
     "id": 27,
     "termino": "Fecha de Estructuración de Invalidez",
-    "definicion": "Fecha en el que se genera en el individuo una pérdida en su capacidad laboral en forma permanente y definitiva.  Para cualquier contingencia, esta fecha debe documentarse  con la historia clínica, los exámenes clínicos y de ayuda diagnóstica y, puede ser anterior ó corresponder a la fecha de calificación.  En todo caso, mientras dicha persona reciba subsidio por incapacidad temporal, no habrá lugar a percibir las prestaciones derivadas de la invalidez."
+    "definicion": "Fecha en el que se genera en el individuo una pérdida en su capacidad laboral en forma permanente y definitiva. Para cualquier contingencia, esta fecha debe documentarse con la historia clínica, los exámenes clínicos y de ayuda diagnóstica y, puede ser anterior ó corresponder a la fecha de calificación. En todo caso, mientras dicha persona reciba subsidio por incapacidad temporal, no habrá lugar a percibir las prestaciones derivadas de la invalidez."
   },
   {
     "id": 28,
@@ -166,13 +166,13 @@
   },
   {
     "id": 40,
-    "termino": "Movilidad Reducida ",
+    "termino": "Movilidad Reducida",
     "definicion": "Es la restricción para desplazarse que presentan algunas personas debido a una discapacidad o que sin ser discapacitadas presentan algún tipo de limitación en su capacidad de relacionarse con el entorno al tener que acceder a un espacio o moverse dentro del mismo, salvar desniveles, alcanzar objetos situados en alturas normales."
   },
   {
     "id": 41,
     "termino": "Pérdida de la Capacidad Laboral",
-    "definicion": "Pérdida o disminución de las habilidades, destrezas, aptitudes  y/o potencialidades de orden físico, mental y social que le permiten desempeñarse en su trabajo habitual."
+    "definicion": "Pérdida o disminución de las habilidades, destrezas, aptitudes y/o potencialidades de orden físico, mental y social que le permiten desempeñarse en su trabajo habitual."
   },
   {
     "id": 42,
@@ -187,7 +187,7 @@
   {
     "id": 44,
     "termino": "Prestaciones Asistenciales",
-    "definicion": "Servicios médicos, quirúrgicos, terapéuticos,  farmacéuticos,  odontológicos y de hospitalización, suministro de medicamentos, servicios auxiliares de diagnóstico y tratamiento, prótesis y órtesis, su reparación, y su reposición solo en casos de deterioro o desadaptación, cuando a criterio de rehabilitación se recomiende, rehabilitaciones física y profesional  y  gastos de traslado, que se le suministran a un trabajador que haya sufrido un accidente o se le diagnostique una enfermedad profesional."
+    "definicion": "Servicios médicos, quirúrgicos, terapéuticos, farmacéuticos, odontológicos y de hospitalización, suministro de medicamentos, servicios auxiliares de diagnóstico y tratamiento, prótesis y órtesis, su reparación, y su reposición solo en casos de deterioro o desadaptación, cuando a criterio de rehabilitación se recomiende, rehabilitaciones física y profesional y gastos de traslado, que se le suministran a un trabajador que haya sufrido un accidente o se le diagnostique una enfermedad profesional."
   },
   {
     "id": 45,
@@ -197,12 +197,12 @@
   {
     "id": 46,
     "termino": "Programa de Salud Ocupacional",
-    "definicion": "Planeación,  organización, ejecución, control y evaluación de todas aquellas actividades tendientes a preservar, mantener y mejorar la salud individual y colectiva de los trabajadores con el fin de evitar accidentes de trabajo y enfermedades profesionales."
+    "definicion": "Planeación, organización, ejecución, control y evaluación de todas aquellas actividades tendientes a preservar, mantener y mejorar la salud individual y colectiva de los trabajadores con el fin de evitar accidentes de trabajo y enfermedades profesionales."
   },
   {
     "id": 47,
     "termino": "Promoción",
-    "definicion": "Conjunto de actividades, intervenciones y programas dirigidos a las personas cuyo objeto es orientar el desarrollo o fortalecimiento  de actitudes y hábitos que favorezcan la salud y el bienestar de los trabajadores, así como la participación activa en la identificación y búsqueda de soluciones a los problemas relacionados con las condiciones de trabajo y de vida. "
+    "definicion": "Conjunto de actividades, intervenciones y programas dirigidos a las personas cuyo objeto es orientar el desarrollo o fortalecimiento de actitudes y hábitos que favorezcan la salud y el bienestar de los trabajadores, así como la participación activa en la identificación y búsqueda de soluciones a los problemas relacionados con las condiciones de trabajo y de vida."
   },
   {
     "id": 48,
@@ -231,7 +231,7 @@
   },
   {
     "id": 53,
-    "termino": "Régimen Contributivo. ",
+    "termino": "Régimen Contributivo.",
     "definicion": "Es un conjunto de normas que rigen la vinculación de los individuos y las familias al Sistema General de Seguridad Social en Salud, cuando tal vinculación se hace a través del pago de una cotización, individual y familiar, o un aporte económico previo financiado directamente por el afiliado o en concurrencia entre éste y su empleador."
   },
   {
@@ -241,43 +241,43 @@
   },
   {
     "id": 55,
-    "termino": "Responsabilidad Administrativa ",
-    "definicion": "Es la obligación económica que resulta por el incumplimiento a las normas del sistema general de riesgos profesionales. La vigilancia y control  es ejercida por entidades como el Ministerio de la Protección Social, la Superintendencia Financiera y la Superintendencia Nacional de Salud por medio de la cual el empleador responde mediante multas o cierre de la empresas por incumplimiento de las normas."
+    "termino": "Responsabilidad Administrativa",
+    "definicion": "Es la obligación económica que resulta por el incumplimiento a las normas del sistema general de riesgos profesionales. La vigilancia y control es ejercida por entidades como el Ministerio de la Protección Social, la Superintendencia Financiera y la Superintendencia Nacional de Salud por medio de la cual el empleador responde mediante multas o cierre de la empresas por incumplimiento de las normas."
   },
   {
     "id": 56,
-    "termino": "Responsabilidad Civil ",
-    "definicion": "Es la obligación económica que resulta como consecuencia de la negligencia u omisión en el cumplimiento de las normas en salud ocupacional de parte del empleador. Es ejercida por la justicia ordinaria  por medio de la cual un Juez de     la República define una indemnización de daños o perjuicios al trabajador y/o familiares  cuando exista culpa suficientemente comprobada."
+    "termino": "Responsabilidad Civil",
+    "definicion": "Es la obligación económica que resulta como consecuencia de la negligencia u omisión en el cumplimiento de las normas en salud ocupacional de parte del empleador. Es ejercida por la justicia ordinaria por medio de la cual un Juez de la República define una indemnización de daños o perjuicios al trabajador y/o familiares cuando exista culpa suficientemente comprobada."
   },
   {
     "id": 57,
-    "termino": "Responsabilidad Laboral ",
-    "definicion": "Es la obligación económica (prestaciones económicas y asistenciales) mediante la cual los trabajadores están protegidos de las contingencias que se ocasionen con causa o con ocasión del trabajo,  por accidente de trabajo y enfermedad profesional, que surge  por la relación  laboral o contrato de trabajo. Esta responsabilidad es la que el empleador  debe asegurar a través de una administradora de riesgos profesionales."
+    "termino": "Responsabilidad Laboral",
+    "definicion": "Es la obligación económica (prestaciones económicas y asistenciales) mediante la cual los trabajadores están protegidos de las contingencias que se ocasionen con causa o con ocasión del trabajo, por accidente de trabajo y enfermedad profesional, que surge por la relación laboral o contrato de trabajo. Esta responsabilidad es la que el empleador debe asegurar a través de una administradora de riesgos profesionales."
   },
   {
     "id": 58,
-    "termino": "Responsabilidad  Penal ",
-    "definicion": "Culpa o dolo del empleador, que surge de parte del causante del delito, al presentarse un accidente de trabajo por las lesiones o el homicidio del trabajador.  La responsabilidad penal  es asumida directamente por  el causante del accidente mortal, llámese gerente, jefe inmediato, compañero de trabajo o supervisor, quienes pueden ser privados de su libertad como consecuencia de un proceso penal por homicidio. Es ejercida por la justicia ordinaria."
+    "termino": "Responsabilidad Penal",
+    "definicion": "Culpa o dolo del empleador, que surge de parte del causante del delito, al presentarse un accidente de trabajo por las lesiones o el homicidio del trabajador. La responsabilidad penal es asumida directamente por el causante del accidente mortal, llámese gerente, jefe inmediato, compañero de trabajo o supervisor, quienes pueden ser privados de su libertad como consecuencia de un proceso penal por homicidio. Es ejercida por la justicia ordinaria."
   },
   {
     "id": 59,
     "termino": "Retiro",
-    "definicion": "Es el proceso mediante el cual una empresa se desvincula de una administradora de riesgos profesionales, ya sea para  trasladarse a otra Administradora de riesgos profesionales  o por liquidación de la misma."
+    "definicion": "Es el proceso mediante el cual una empresa se desvincula de una administradora de riesgos profesionales, ya sea para trasladarse a otra Administradora de riesgos profesionales o por liquidación de la misma."
   },
   {
     "id": 60,
-    "termino": "Retiro Programado ",
+    "termino": "Retiro Programado",
     "definicion": "El retiro programado es la modalidad de pensión en la cual el afiliado o los beneficiarios obtienen su pensión de la sociedad administradora, con cargo a su cuenta individual de ahorro pensional y al bono pensional a que hubiera lugar."
   },
   {
     "id": 61,
-    "termino": "Salud Ocupacional ",
+    "termino": "Salud Ocupacional",
     "definicion": "Las administradoras de riesgos profesionales deberán garantizar y proporcionar a las pequeñas, medianas y grandes empresas afiliadas, capacitación y asistencia técnica para el desarrollo de los programas de salud ocupacional, sin importar el número de trabajadores y cotización de la empresa. Se debe capacitar y dar asistencia técnica en lo relacionado con los programas regulares de prevención y control de riesgos profesionales, diseño, montaje y operación de los sistemas de vigilancia epidemiológica, conforme a la actividad económica de la empresa, sin importar el número de trabajadores."
   },
   {
     "id": 62,
     "termino": "Sistema General de Riesgos Profesionales",
-    "definicion": "El Sistema General de Riesgos Profesionales, es el conjunto de entidades públicas  y privadas, normas y procedimientos, destinados a prevenir, proteger y atender a los trabajadores de los efectos de las enfermedades y los accidentes que puedan  ocurrirles con ocasión o como consecuencia del trabajo que desarrollan."
+    "definicion": "El Sistema General de Riesgos Profesionales, es el conjunto de entidades públicas y privadas, normas y procedimientos, destinados a prevenir, proteger y atender a los trabajadores de los efectos de las enfermedades y los accidentes que puedan ocurrirles con ocasión o como consecuencia del trabajo que desarrollan."
   },
   {
     "id": 63,
@@ -287,12 +287,12 @@
   {
     "id": 64,
     "termino": "Teleasistencia Domiciliaria",
-    "definicion": "Modalidad destinada a la asistencia en crisis personales, sociales o médicas de los Personas mayores mediante el contacto telefónico inmediato con una persona o centro de atención especializada,  para proporcionarles seguridad y mejorar su calidad de vida."
+    "definicion": "Modalidad destinada a la asistencia en crisis personales, sociales o médicas de los Personas mayores mediante el contacto telefónico inmediato con una persona o centro de atención especializada, para proporcionarles seguridad y mejorar su calidad de vida."
   },
   {
     "id": 65,
     "termino": "Centros día para persona mayor",
-    "definicion": "Sitio que funciona en horario diurno, generalmente ocho (8) horas diarias durante cinco (5)  o seis (6)  días a la semana, orientada al cuidado y bienestar integral de la Persona Mayor. "
+    "definicion": "Sitio que funciona en horario diurno, generalmente ocho (8) horas diarias durante cinco (5) o seis (6) días a la semana, orientada al cuidado y bienestar integral de la Persona Mayor."
   },
   {
     "id": 66,
@@ -302,7 +302,7 @@
   {
     "id": 67,
     "termino": "Centros de Promoción y Protección Social para la persona mayor",
-    "definicion": "Son centros que prestan atención, cuidado, servicios y ofrecen opciones de desarrollo a las personas mayores; son espacios favorables para la socialización, recreación, capacitación, productividad y desarrollo de proyectos de vida digna.  (Son también conocidos como ancianatos, pero la denominación esta cambiando en pro de la significación del ser humano). Pueden ser de 4 modalidades así:"
+    "definicion": "Son centros que prestan atención, cuidado, servicios y ofrecen opciones de desarrollo a las personas mayores; son espacios favorables para la socialización, recreación, capacitación, productividad y desarrollo de proyectos de vida digna. (Son también conocidos como ancianatos, pero la denominación esta cambiando en pro de la significación del ser humano). Pueden ser de 4 modalidades así:"
   },
   {
     "id": 68,
@@ -311,17 +311,17 @@
   },
   {
     "id": 69,
-    "termino": "Promoción Social ",
-    "definicion": "Consiste en crear condiciones para que la población no caiga en situaciones de privación socialmente inadmisibles, igualdad de oportunidades en el acceso y calidad del conjunto básico de servicios sociales. \n "
+    "termino": "Promoción Social",
+    "definicion": "Consiste en crear condiciones para que la población no caiga en situaciones de privación socialmente inadmisibles, igualdad de oportunidades en el acceso y calidad del conjunto básico de servicios sociales."
   },
   {
     "id": 70,
-    "termino": "Sistema de Garantía de Calidad de la Promoción Social de la Persona Mayor ",
-    "definicion": "Es el conjunto y relaciones entre los centros, modalidades, normas, requisitos, mecanismos y procesos deliberados y sistemáticos que desarrolla el Sector de la Protección Social para generar, mantener y mejorar la calidad de los servicios que atienden Personas mayores en el país. Los elementos que componen este Sistema son: las entidades territoriales en los niveles nacional, departamental y municipal, los Centros en sus diferentes modalidades, la familia, la sociedad en concordancia con el artículo 46 de la Constitución Nacional. Igualmente son elementos del Sistema el proceso de Habilitación y el Sistema de Información. \n "
+    "termino": "Sistema de Garantía de Calidad de la Promoción Social de la Persona Mayor",
+    "definicion": "Es el conjunto y relaciones entre los centros, modalidades, normas, requisitos, mecanismos y procesos deliberados y sistemáticos que desarrolla el Sector de la Protección Social para generar, mantener y mejorar la calidad de los servicios que atienden Personas mayores en el país. Los elementos que componen este Sistema son: las entidades territoriales en los niveles nacional, departamental y municipal, los Centros en sus diferentes modalidades, la familia, la sociedad en concordancia con el artículo 46 de la Constitución Nacional. Igualmente son elementos del Sistema el proceso de Habilitación y el Sistema de Información."
   },
   {
     "id": 83,
-    "termino": "ARS ",
+    "termino": "ARS",
     "definicion": "Administradoras del Régimen Subsidiado."
   },
   {
@@ -332,167 +332,167 @@
   {
     "id": 85,
     "termino": "Biodisponibilidad",
-    "definicion": "\n\nIndica la cantidad de fármaco terapéuticamente activo que alcanza la circulación general y la velocidad a la cual lo hace, después de la administración de la forma farmacéutica\n\n\n\n"
+    "definicion": "Indica la cantidad de fármaco terapéuticamente activo que alcanza la circulación general y la velocidad a la cual lo hace, después de la administración de la forma farmacéutica"
   },
   {
     "id": 86,
     "termino": "Clases Terapéuticas",
-    "definicion": "\n\nLas clases terapéuticas agrupan medicamentos que poseen cierto grado de sustitución entre sí, por lo cual permiten definir, aunque de manera imperfecta, los mercados en el sector farmacéutico. Es decir, un medicamento utilizado para el tratamiento de la hipertensión arterial es un pobre sustituto de un antigripal, por lo cual compiten en mercados distintos. De este modo, el mercado farmacéutico se encuentra segmentado dependiendo del tratamiento terapéutico al que se orienten los productos. Existen numerosas clases terapéuticas dependiendo del área del cuerpo humano afectada por una enfermedad y del tipo de dolencia. Sin embargo, dentro de cada clase terapéutica se observa la competencia de productos con distintos niveles de sustitución: alto grado (cuando se trata del mismo principio activo) o de menor grado (cuando se trata de distintos principios activos).\n\n\n\n"
+    "definicion": "Las clases terapéuticas agrupan medicamentos que poseen cierto grado de sustitución entre sí, por lo cual permiten definir, aunque de manera imperfecta, los mercados en el sector farmacéutico. Es decir, un medicamento utilizado para el tratamiento de la hipertensión arterial es un pobre sustituto de un antigripal, por lo cual compiten en mercados distintos. De este modo, el mercado farmacéutico se encuentra segmentado dependiendo del tratamiento terapéutico al que se orienten los productos. Existen numerosas clases terapéuticas dependiendo del área del cuerpo humano afectada por una enfermedad y del tipo de dolencia. Sin embargo, dentro de cada clase terapéutica se observa la competencia de productos con distintos niveles de sustitución: alto grado (cuando se trata del mismo principio activo) o de menor grado (cuando se trata de distintos principios activos)."
   },
   {
     "id": 87,
     "termino": "Clasificación Terapéutica Relevante -CTR",
-    "definicion": "\n\nGrupo de medicamentos utilizados con el mismo fin terapéutico (acción farmacológica semejante) y que compiten directamente en un mercado.\n\n\n\n"
+    "definicion": "Grupo de medicamentos utilizados con el mismo fin terapéutico (acción farmacológica semejante) y que compiten directamente en un mercado."
   },
   {
     "id": 88,
     "termino": "CNPM",
-    "definicion": "\n\nLa Comisión Nacional de Precios de Medicamentos CNPM es una comisión de alto nivel creada por Ley 100, integrada por el Ministro de la Protección Social, el Ministro Comercio Industria y Turismo y un Delegado personal del Presidente de la República, encargada de dictar las políticas de regulación de precios de medicamentos.\n\n\n\n"
+    "definicion": "La Comisión Nacional de Precios de Medicamentos CNPM es una comisión de alto nivel creada por Ley 100, integrada por el Ministro de la Protección Social, el Ministro Comercio Industria y Turismo y un Delegado personal del Presidente de la República, encargada de dictar las políticas de regulación de precios de medicamentos."
   },
   {
     "id": 89,
     "termino": "Concentración",
-    "definicion": "\n\nCantidad de principio activo que contiene un medicamento.\n\n\n\n"
+    "definicion": "Cantidad de principio activo que contiene un medicamento."
   },
   {
     "id": 90,
     "termino": "Denominación Común Internacional",
-    "definicion": "\n\nNombre común para los medicamentos recomendado por la Organización Mundial de la Salud, a objeto de lograr su identificación internacional.\n\n\n\n"
+    "definicion": "Nombre común para los medicamentos recomendado por la Organización Mundial de la Salud, a objeto de lograr su identificación internacional."
   },
   {
     "id": 91,
     "termino": "Entidades",
-    "definicion": "\n\nLas entidades reportadoras deben reportar trimestralmente a esta Comisión los Precios Promedio a Distribuidor (PPD) y Sugerido al Público (PSP) de todos los productos que comercializan.\n\n\n\n"
+    "definicion": "Las entidades reportadoras deben reportar trimestralmente a esta Comisión los Precios Promedio a Distribuidor (PPD) y Sugerido al Público (PSP) de todos los productos que comercializan."
   },
   {
     "id": 92,
     "termino": "EPS",
-    "definicion": "\n\nEmpresas Promotoras de Salud.\n\n\n\n"
+    "definicion": "Empresas Promotoras de Salud."
   },
   {
     "id": 93,
     "termino": "Fármaco",
-    "definicion": "\n\nEs el principio activo de un producto farmacéutico.\n\n\n\n"
+    "definicion": "Es el principio activo de un producto farmacéutico."
   },
   {
     "id": 94,
     "termino": "FMC",
-    "definicion": "\nLa Federación Medica Colombiana tiene por objeto congregar a todos los médicos colombianos para luchar unidos por la defensa de la profesión con el fin de que ésta rinda los más amplios resultados morales y sociales a favor de los que científicamente tienen el derecho a ejercerla y de la población Colombiana.\n\n\n\n"
+    "definicion": "La Federación Medica Colombiana tiene por objeto congregar a todos los médicos colombianos para luchar unidos por la defensa de la profesión con el fin de que ésta rinda los más amplios resultados morales y sociales a favor de los que científicamente tienen el derecho a ejercerla y de la población Colombiana."
   },
   {
     "id": 95,
     "termino": "Forma Farmacéutica",
-    "definicion": "\n\nForma en la cual se presenta un producto farmacéutico terminado que permite su dosificación y aplicación terapéutica.\n\n\n\n"
+    "definicion": "Forma en la cual se presenta un producto farmacéutico terminado que permite su dosificación y aplicación terapéutica."
   },
   {
     "id": 96,
     "termino": "Indice de Precios del Productos (IPP)",
-    "definicion": "\n\nIndicador de la evolución de los precios pagados al productor, y se utiliza con frecuencia como indicador de precios al por mayor.\n\n\n\n"
+    "definicion": "Indicador de la evolución de los precios pagados al productor, y se utiliza con frecuencia como indicador de precios al por mayor."
   },
   {
     "id": 97,
     "termino": "IPS",
-    "definicion": "\n\nInstitución Prestadora de Servicios de Salud.\n\n\n\n"
+    "definicion": "Institución Prestadora de Servicios de Salud."
   },
   {
     "id": 98,
     "termino": "Marca Original",
-    "definicion": "\n\nProducto original, primera patente creada con ese principio activo.\n\n\n\n"
+    "definicion": "Producto original, primera patente creada con ese principio activo."
   },
   {
     "id": 99,
     "termino": "Medicamento",
-    "definicion": "\n\nEs aquél preparado farmacéutico obtenido a partir de principios activos, con o sin sustancias auxiliares, presentado bajo forma farmacéutica que se utiliza para la prevención, alivio, diagnóstico, tratamiento, curación o rehabilitación de la enfermedad. Los envases, rótulos, etiquetas y empaques hacen parte integral del medicamento, por cuanto éstos garantizan su calidad, estabilidad y uso adecuado\n\n\n\n"
+    "definicion": "Es aquél preparado farmacéutico obtenido a partir de principios activos, con o sin sustancias auxiliares, presentado bajo forma farmacéutica que se utiliza para la prevención, alivio, diagnóstico, tratamiento, curación o rehabilitación de la enfermedad. Los envases, rótulos, etiquetas y empaques hacen parte integral del medicamento, por cuanto éstos garantizan su calidad, estabilidad y uso adecuado"
   },
   {
     "id": 100,
     "termino": "Medicamento de Venta Libre (Sin fórmula médica)",
-    "definicion": "\n\nSe entiende como medicamentos de venta sin fórmula médica aquellos productos farmacéutico que el consumidor puede adquirir sin la mediación del prescriptor y están destinados a la prevención o al tratamiento, alivio de síntomas signos o enfermedades leves que son reconocidas adecuadamente por los pacientes y en ciertas enfermedades crónicas previo entrenamiento y consentimiento por parte del o de los médicos tratantes.\n\n\n\n"
+    "definicion": "Se entiende como medicamentos de venta sin fórmula médica aquellos productos farmacéutico que el consumidor puede adquirir sin la mediación del prescriptor y están destinados a la prevención o al tratamiento, alivio de síntomas signos o enfermedades leves que son reconocidas adecuadamente por los pacientes y en ciertas enfermedades crónicas previo entrenamiento y consentimiento por parte del o de los médicos tratantes."
   },
   {
     "id": 101,
     "termino": "Medicamento Esencial",
-    "definicion": "\n\nEs aquel que reúne características de ser el más costo efectivo en el tratamiento de una enfermedad, en razón de su eficacia y seguridad farmacológica, por dar una respuesta más favorable a los problemas de mayor relevancia en el perfil de morbimortalidad de una comunidad y porque su costo se ajusta a las condiciones de la economía del país. Corresponden a los contenidos en el listado de medicamentos del Plan Obligatorio de Salud, POS, del Sistema de Seguridad Social en Salud.\n\n\n\n"
+    "definicion": "Es aquel que reúne características de ser el más costo efectivo en el tratamiento de una enfermedad, en razón de su eficacia y seguridad farmacológica, por dar una respuesta más favorable a los problemas de mayor relevancia en el perfil de morbimortalidad de una comunidad y porque su costo se ajusta a las condiciones de la economía del país. Corresponden a los contenidos en el listado de medicamentos del Plan Obligatorio de Salud, POS, del Sistema de Seguridad Social en Salud."
   },
   {
     "id": 102,
     "termino": "Medicamento Génerico",
-    "definicion": "\n\nNombre empleado para distinguir el principio activo que no está amparado por una marca de fábrica. El nombre genérico corresponde generalmente con la Denominación Común Internacional recomendada por la OMS y es usado comúnmente por los fabricantes y reconocido por la autoridad competente para denominar productos farmacéuticos que tienen el mismo principio activo.\n\n\n\n"
+    "definicion": "Nombre empleado para distinguir el principio activo que no está amparado por una marca de fábrica. El nombre genérico corresponde generalmente con la Denominación Común Internacional recomendada por la OMS y es usado comúnmente por los fabricantes y reconocido por la autoridad competente para denominar productos farmacéuticos que tienen el mismo principio activo."
   },
   {
     "id": 103,
     "termino": "Medicamento Nuevo",
-    "definicion": "\n\nEs aquel cuyo principio activo no ha sido incluido en el Manual de Normas Farmacológicas o aquel que, estando incluido en él corresponda a nuevas asociaciones o dosis fijas, o a nuevas indicaciones, o nuevas formas farmacéuticas, modificaciones que impliquen cambios en la farmacocinética, cambios en la vía de administración o en las condiciones de comercialización. Incluye también las sales, ésteres, solvatos u otros derivados no contemplados en los textos reconocidos científicamente en el país.\n\n\n\n"
+    "definicion": "Es aquel cuyo principio activo no ha sido incluido en el Manual de Normas Farmacológicas o aquel que, estando incluido en él corresponda a nuevas asociaciones o dosis fijas, o a nuevas indicaciones, o nuevas formas farmacéuticas, modificaciones que impliquen cambios en la farmacocinética, cambios en la vía de administración o en las condiciones de comercialización. Incluye también las sales, ésteres, solvatos u otros derivados no contemplados en los textos reconocidos científicamente en el país."
   },
   {
     "id": 104,
     "termino": "Medicamento Vital no Disponible",
-    "definicion": "\n\nEs un medicamento indispensable e irremplazable para salvaguardar la vida o aliviar el sufrimiento de un paciente o un grupo de pacientes y que por condiciones de baja rentabilidad en su comercialización, no se encuentra disponible en el país o las cantidades no son suficientes\n\n\n\n"
+    "definicion": "Es un medicamento indispensable e irremplazable para salvaguardar la vida o aliviar el sufrimiento de un paciente o un grupo de pacientes y que por condiciones de baja rentabilidad en su comercialización, no se encuentra disponible en el país o las cantidades no son suficientes"
   },
   {
     "id": 105,
     "termino": "Medicamentos Iguales",
-    "definicion": "\n\nAquellos que tienen la misma molécula, concentración, presentación y fórmula farmacéutica. \n\n\n\n \n\n\n\n"
+    "definicion": "Aquellos que tienen la misma molécula, concentración, presentación y fórmula farmacéutica."
   },
   {
     "id": 106,
     "termino": "Precios Promedio a Distribuidor",
-    "definicion": "\n\nEl Precio Promedio a Distribuidor (PPD) corresponde a la media aritmética de los precios a que las entidades reportadoras facturan un producto a mayoristas, cadenas y demás clientes directos (sin incluir Instituciones).\n\n\n\n"
+    "definicion": "El Precio Promedio a Distribuidor (PPD) corresponde a la media aritmética de los precios a que las entidades reportadoras facturan un producto a mayoristas, cadenas y demás clientes directos (sin incluir Instituciones)."
   },
   {
     "id": 107,
     "termino": "Precios Sugeridos al Público (PSP)",
-    "definicion": "\n\nEl PSP corresponde al Precio Sugerido al Público que las entidades reportadoras reportan a la Comisión Nacional de Precios de Medicamentos.\n\n\n\n"
+    "definicion": "El PSP corresponde al Precio Sugerido al Público que las entidades reportadoras reportan a la Comisión Nacional de Precios de Medicamentos."
   },
   {
     "id": 108,
     "termino": "Presentación Comercial",
-    "definicion": "\n\nForma de empaque y distribución de los medicamentos con sus respectivas medidas de contenido. Puede ser caja, blister, sobre, frasco, x10 x20 x30 x500, unidades, mililitros, gramos, etc.\n\n\n\n"
+    "definicion": "Forma de empaque y distribución de los medicamentos con sus respectivas medidas de contenido. Puede ser caja, blister, sobre, frasco, x10 x20 x30 x500, unidades, mililitros, gramos, etc."
   },
   {
     "id": 109,
     "termino": "Principio Activo",
-    "definicion": "\n\nCompuesto o mezcla de compuestos que tiene una acción farmacológica\n\n\n\n"
+    "definicion": "Compuesto o mezcla de compuestos que tiene una acción farmacológica"
   },
   {
     "id": 110,
     "termino": "Regímenes de Control",
-    "definicion": "\n\nSon los regímenes en los cuales se puede ubicar un medicamento, dependiendo de su comportamiento en el mercado.\n\n\n\n"
+    "definicion": "Son los regímenes en los cuales se puede ubicar un medicamento, dependiendo de su comportamiento en el mercado."
   },
   {
     "id": 111,
     "termino": "Régimen de Control Directo",
-    "definicion": "\n\nEn el cual la entidad responsable fija el precio máximo de venta al público, en cualquiera de los niveles, que productores y distribuidores pueden cobrar por el bien o servicio en cuestión.\n\n\n\n"
+    "definicion": "En el cual la entidad responsable fija el precio máximo de venta al público, en cualquiera de los niveles, que productores y distribuidores pueden cobrar por el bien o servicio en cuestión."
   },
   {
     "id": 112,
     "termino": "Régimen de Libertad Regulada",
-    "definicion": "\n\nEn el cual la entidad responsable fija los criterios y la metodología para que los productores o distribuidores determinen o modifiquen los precios máximos de venta al público en cualquiera de los niveles de los bienes o servicios sometidos a este régimen.\n\n\n\n"
+    "definicion": "En el cual la entidad responsable fija los criterios y la metodología para que los productores o distribuidores determinen o modifiquen los precios máximos de venta al público en cualquiera de los niveles de los bienes o servicios sometidos a este régimen."
   },
   {
     "id": 113,
     "termino": "Régimen de Libertad Vigilada",
-    "definicion": "\n\nBajo esta modalidad los productores y distribuidores pueden determinar los precios de los bienes en cuestión, bajo la obligación de informar por escrito a la entidad responsable del control, las variaciones y determinaciones de los precios de acuerdo con la metodología que la entidad defina.\n\n\n\n"
+    "definicion": "Bajo esta modalidad los productores y distribuidores pueden determinar los precios de los bienes en cuestión, bajo la obligación de informar por escrito a la entidad responsable del control, las variaciones y determinaciones de los precios de acuerdo con la metodología que la entidad defina."
   },
   {
     "id": 114,
     "termino": "Régimen de Dosificación",
-    "definicion": "\n\nSe refiere a la cantidad indicada para la administración de un medicamento, los intervalos entre las administraciones y la duración del tratamiento.\n\n\n\n"
+    "definicion": "Se refiere a la cantidad indicada para la administración de un medicamento, los intervalos entre las administraciones y la duración del tratamiento."
   },
   {
     "id": 115,
     "termino": "Régimen Sanitario",
-    "definicion": "\n\nEs el documento público expedido por el INVIMA o la autoridad delegada, previo el procedimiento tendiente a verificar el cumplimiento de los requisitos técnico-legales establecidos en el Decreto 677/95, el cual faculta a una persona natural o jurídica para producir, comercializar, importar, exportar, envasar, procesar y/o expender los medicamentos cosméticos, preparaciones farmacéuticas a base de recursos naturales, productos de aseo, higiene y limpieza y otros productos de uso doméstico.\n\n\n\n"
+    "definicion": "Es el documento público expedido por el INVIMA o la autoridad delegada, previo el procedimiento tendiente a verificar el cumplimiento de los requisitos técnico-legales establecidos en el Decreto 677/95, el cual faculta a una persona natural o jurídica para producir, comercializar, importar, exportar, envasar, procesar y/o expender los medicamentos cosméticos, preparaciones farmacéuticas a base de recursos naturales, productos de aseo, higiene y limpieza y otros productos de uso doméstico."
   },
   {
     "id": 116,
     "termino": "TSA",
-    "definicion": "\n\nSoftware brindado por el Ministerio de la Protección Social para transporte seguro de archivos desde la fuente\n\n\n\n"
+    "definicion": "Software brindado por el Ministerio de la Protección Social para transporte seguro de archivos desde la fuente"
   },
   {
     "id": 117,
     "termino": "Vía de Administración",
-    "definicion": "Es la vía por la que un medicamento se introduce en el organismo.\n\n\n\n"
+    "definicion": "Es la vía por la que un medicamento se introduce en el organismo."
   },
   {
     "id": 118,
@@ -507,12 +507,12 @@
   {
     "id": 121,
     "termino": "Afiliación",
-    "definicion": "Es el procedimiento mediante el cual los potenciales beneficiarios del Régimen Subsidiado y su núcleo familiar se vinculan al Sistema General de Seguridad Social en Salud. "
+    "definicion": "Es el procedimiento mediante el cual los potenciales beneficiarios del Régimen Subsidiado y su núcleo familiar se vinculan al Sistema General de Seguridad Social en Salud."
   },
   {
     "id": 122,
     "termino": "BDUA (Base Única de Afiliados)",
-    "definicion": "Es la base que contiene la información de los afiliados plenamente  identificados, del los distintos regímenes del Sistema de Seguridad Social en Salud. (Régimen Subsidiado, Contributivo y Regímenes especiales)."
+    "definicion": "Es la base que contiene la información de los afiliados plenamente identificados, del los distintos regímenes del Sistema de Seguridad Social en Salud. (Régimen Subsidiado, Contributivo y Regímenes especiales)."
   },
   {
     "id": 123,
@@ -532,7 +532,7 @@
   {
     "id": 126,
     "termino": "Fosyga (Fondo de Solidaridad y Garantía)",
-    "definicion": "Es una cuenta adscrita al Ministerio de Protección Social que se maneja por encargo fiduciario, en la cual se depositan los recursos del Sistema de Seguridad Social en Salud. "
+    "definicion": "Es una cuenta adscrita al Ministerio de Protección Social que se maneja por encargo fiduciario, en la cual se depositan los recursos del Sistema de Seguridad Social en Salud."
   },
   {
     "id": 127,
@@ -566,7 +566,7 @@
   },
   {
     "id": 133,
-    "termino": "POS-S (Plan Obligatorio de Salud-subsidiado) ",
+    "termino": "POS-S (Plan Obligatorio de Salud-subsidiado)",
     "definicion": "Es el conjunto de actividades, procedimientos e intervenciones, servicios, insumos y medicamentos al que tienen derecho los afiliados al Régimen Subsidiado."
   },
   {
@@ -592,7 +592,7 @@
   {
     "id": 138,
     "termino": "Sistema de Seguridad Social en Salud",
-    "definicion": "Es un conjunto armónico de entidades públicas y privadas, normas y procedimientos, que procuran la prestación del servicio y fijan condiciones de acceso en todos los niveles de atención, bajo el fundamento de garantizar la atención integral a toda población.\n• Subcuenta de compensación.\n• Subcuenta de ECAT.\n• Subcuenta de promoción de la salud.\n"
+    "definicion": "Es un conjunto armónico de entidades públicas y privadas, normas y procedimientos, que procuran la prestación del servicio y fijan condiciones de acceso en todos los niveles de atención, bajo el fundamento de garantizar la atención integral a toda población. • Subcuenta de compensación. • Subcuenta de ECAT. • Subcuenta de promoción de la salud."
   },
   {
     "id": 139,
@@ -612,7 +612,7 @@
   {
     "id": 142,
     "termino": "UPC-S especial",
-    "definicion": "Es la prima adicional que reconoce el gobierno nacional para aquellos municipios que presentan una mayor dispersión poblacional generando mayores costos de transporte. Estos son los municipios de los departamentos de Amazonas, Arauca, Casanare, Caquetá, Chocó, Guajira, Guainía, Guaviare, Meta, Putumayo, San Andrés y providencia, Sucre, Vaupés, Vichada y de la región de Urabá. Exceptuando las ciudades de Arauca, Florencia, Riohacha, Sincelejo, Villavicencio, Yopal. "
+    "definicion": "Es la prima adicional que reconoce el gobierno nacional para aquellos municipios que presentan una mayor dispersión poblacional generando mayores costos de transporte. Estos son los municipios de los departamentos de Amazonas, Arauca, Casanare, Caquetá, Chocó, Guajira, Guainía, Guaviare, Meta, Putumayo, San Andrés y providencia, Sucre, Vaupés, Vichada y de la región de Urabá. Exceptuando las ciudades de Arauca, Florencia, Riohacha, Sincelejo, Villavicencio, Yopal."
   },
   {
     "id": 143,
