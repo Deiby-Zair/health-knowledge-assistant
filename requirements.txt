@@ -1,4 +1,6 @@
 bs4
 dotenv
 PyPDF2
+qdrant-client
 requests
+sentence-transformers

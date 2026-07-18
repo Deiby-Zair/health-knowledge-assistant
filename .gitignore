@@ -5,8 +5,10 @@ __pycache__/
 *.py[cod]
 *.pyo
 *.pyd
+.Python
 .pytest_cache/
 .mypy_cache/
+.ruff_cache/
 
 # =========================
 # Virtual environments
@@ -16,17 +18,36 @@ venv/
 env/
 
 # =========================
-# Environment variables
+# Environment variables / API Keys
 # =========================
 .env
+.env.*
 
 # =========================
-# Vector database
+# Qdrant vector store
 # =========================
-vectorstore/chroma_db/
+qdrant_data/
+vectorstore/
+storage/
 
-# Raw PDFs
-data/raw/pdfs/
+# =========================
+# Local databases
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+
+# =========================
+# Hugging Face cache (si está dentro del proyecto)
+# =========================
+.cache/
+hf_cache/
+
+# =========================
+# Logs
+# =========================
+*.log
+logs/
 
 # =========================
 # IDEs
@@ -39,3 +60,6 @@ data/raw/pdfs/
 # =========================
 .DS_Store
 Thumbs.db
+
+# Raw PDFs
+data/raw/pdfs/
