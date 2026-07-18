@@ -1,5 +1,7 @@
 bs4
 dotenv
+google-genai
+openai
 PyPDF2
 qdrant-client
 requests
