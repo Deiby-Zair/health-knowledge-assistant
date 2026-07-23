@@ -1,0 +1,627 @@
+[
+  {
+    "id": 1,
+    "termino": "Accesibilidad",
+    "definicion": "Condición que permite, en cualquier espacio o ambiente ya sea interior o exterior, el fácil y seguro desplazamiento de la población en general y el uso en forma confiable, eficiente y autónoma de los servicios instalados."
+  },
+  {
+    "id": 3,
+    "termino": "Administradoras de Riesgos Profesionales ARP",
+    "definicion": "Son compañías aseguradoras de vida o empresas mutuales a las cuales se les ha autorizado por parte de la Superintendencia Financiera para la explotación del ramo de los seguros. Están destinadas a prevenir, proteger y atender a los trabajadores de los efectos de las enfermedades y los accidentes que puedan ocurrirles con ocasión o como consecuencia del trabajo."
+  },
+  {
+    "id": 4,
+    "termino": "Atención en Salud Ocupacional y Riesgos Profesionales",
+    "definicion": "Conjunto de servicios que se brindan a trabajadores y empresarios en el marco propio de los procesos de aseguramiento, así como las actividades, procedimientos e intervenciones en las fases de promoción de la salud en los centros de trabajo, prevención de daños a la salud derivados de factores de riesgo ocupacional, mejoramiento de condiciones de trabajo y rehabilitación integral de los trabajadores que han sufrido daños a su salud."
+  },
+  {
+    "id": 6,
+    "termino": "Auxilio Funerario",
+    "definicion": "La persona que compruebe haber sufragado los gastos de entierro de un afiliado o de un pensionado por invalidez del Sistema de Riesgos Profesionales, tendrá derecho a recibir un auxilio funerario igual el determinado en el artículo 86 de la Ley 100 de 1993."
+  },
+  {
+    "id": 7,
+    "termino": "Barreras Arquitectónicas",
+    "definicion": "Son los impedimentos al libre desplazamiento de las personas, que se presentan al interior de las edificaciones."
+  },
+  {
+    "id": 8,
+    "termino": "Barreras Fìsicas",
+    "definicion": "Se entiende por barreras físicas, todas aquellas trabas y obstáculos físicos que limiten o impidan la libertad de movimiento o normal desplazamiento de las personas."
+  },
+  {
+    "id": 9,
+    "termino": "Beneficiario",
+    "definicion": "Personas que después de acreditar el derecho a recibir el pago de un auxilio funerario o de una pensión de sobrevivientes."
+  },
+  {
+    "id": 10,
+    "termino": "Calidad de la Atención en Salud Ocupacional",
+    "definicion": "Provisión de servicios accesibles y equitativos, con un nivel profesional óptimo, que tiene en cuenta los recursos disponibles y logra adhesión y satisfacción de trabajadores y empresarios."
+  },
+  {
+    "id": 12,
+    "termino": "Cobertura.",
+    "definicion": "Es el derecho al aseguramiento a través de las administradoras de riesgos profesionales, quienes asumen los costos de prestaciones asistenciales y económicas derivadas de un accidente de trabajo o enfermedad profesional."
+  },
+  {
+    "id": 13,
+    "termino": "Comité Paritario de Salud Ocupacional (Copaso)",
+    "definicion": "Organismo de vigilancia de las normas y reglamentos de la salud ocupacional dentro de la empresa, y no se ocupará por lo tanto de tramitar asuntos referentes a la relación contractual-laboral propiamente dicha, los problemas de personal, disciplinarios o sindicales; ellos se ventilan en otros organismos y están sujetos a reglamentación distinta."
+  },
+  {
+    "id": 14,
+    "termino": "Deficiencia",
+    "definicion": "Es toda perdida o anormalidad de una estructura o función cognitiva, mental, sensorial o motora."
+  },
+  {
+    "id": 15,
+    "termino": "Deficiencia Auditiva",
+    "definicion": "Alteración en las funciones sensoriales auditivas y/o estructuras del oído o del sistema nervioso, que limitan al individuo principalmente en la ejecución de actividades de comunicación sonora."
+  },
+  {
+    "id": 16,
+    "termino": "Deficiencia Cognitiva",
+    "definicion": "Alteración en las funciones mentales o estructuras del sistema nervioso, que limitan al individuo principalmente en la ejecución de actividades de aprendizaje y aplicación del conocimiento."
+  },
+  {
+    "id": 17,
+    "termino": "Deficiencia Mental",
+    "definicion": "Alteración en las funciones mentales o estructuras del sistema nervioso, que perturban el comportamiento del individuo, limitándolo principalmente en la ejecución de actividades de interacción y relaciones personales de la vida comunitaria, social y cívica."
+  },
+  {
+    "id": 18,
+    "termino": "Deficiencia Motora",
+    "definicion": "Alteración en las funciones neuromusculoesqueléticas y/o estructuras del sistema nervioso y relacionadas con el movimiento, que limitan al individuo principalmente en la ejecución de actividades de movilidad."
+  },
+  {
+    "id": 19,
+    "termino": "Deficiencia Visual",
+    "definicion": "Alteración en las funciones sensoriales, visuales y/o estructuras del ojo o del sistema nervioso, que limitan al individuo en la ejecución de actividades que impliquen el uso exclusivo de la visión."
+  },
+  {
+    "id": 20,
+    "termino": "Discapacidad",
+    "definicion": "Es toda restricción en la participación y relación con el entorno social o la limitación en la actividad de la vida diaria, debida a una deficiencia en la estructura o en la función motora, sensorial, cognitiva o mental. La discapacidad es vivida por cada individuo en forma diferente, dependiendo no solo de su alteración funcional, sino de las oportunidades que le ofrezca el entorno en el que se desarrolla."
+  },
+  {
+    "id": 21,
+    "termino": "Enfoque Diferencial",
+    "definicion": "Se entiende como el “método de análisis, actuación y evaluación, que toma en cuenta las diversidades e inequidades de la población en situación o en riesgo de desplazamiento, para brindar una atención integral, protección y garantía de derechos, que cualifique la respuesta institucional y comunitaria”. Involucra las condiciones y posiciones de los/las distintos/as actores sociales como sujetos/as de derecho, desde una mirada de grupo socioeconómico, género, etnia e identidad cultural, y de las variables implícitas en el ciclo vital - niñez, juventud, adultez y vejez."
+  },
+  {
+    "id": 22,
+    "termino": "Elusión",
+    "definicion": "Conducta ilegal, que se presenta cuando se hacen los reportes y pagos a la ARP por salarios inferiores a los reales, o usando una clase de riesgo inferior a la que en realidad esta expuestos los empleados"
+  },
+  {
+    "id": 24,
+    "termino": "Evasión",
+    "definicion": "Conducta ilegal del empleador que no cumple con la obligación de afiliarse a una ARP o cuando estando afiliado, no reporta la totalidad de sus empleados."
+  },
+  {
+    "id": 25,
+    "termino": "Factores de Riesgos Ocupacionales",
+    "definicion": "Elemento, fenómeno o acción humana que puede provocar daño en la salud de los trabajadores, en los equipos o en las instalaciones."
+  },
+  {
+    "id": 26,
+    "termino": "Fecha de Calificación de Invalidez",
+    "definicion": "Momento en el cual queda en firme el dictamen emitido por la instancia competente sobre la pérdida de la capacidad laboral del afiliado."
+  },
+  {
+    "id": 27,
+    "termino": "Fecha de Estructuración de Invalidez",
+    "definicion": "Fecha en el que se genera en el individuo una pérdida en su capacidad laboral en forma permanente y definitiva. Para cualquier contingencia, esta fecha debe documentarse con la historia clínica, los exámenes clínicos y de ayuda diagnóstica y, puede ser anterior ó corresponder a la fecha de calificación. En todo caso, mientras dicha persona reciba subsidio por incapacidad temporal, no habrá lugar a percibir las prestaciones derivadas de la invalidez."
+  },
+  {
+    "id": 28,
+    "termino": "Fondo de Riesgos Profesionales",
+    "definicion": "Cuenta especial de la Nación, adscrita al Ministerio de la Protección Social, que tiene por objeto:Adelantar estudios, campañas y acciones de educación, prevención e investigación de los accidentes de trabajo y enfermedades profesionales en todo el territorio nacional, en especial el artículo 88 del Decreto 1295 de 1994."
+  },
+  {
+    "id": 29,
+    "termino": "Habilitación/Rehabilitación Integral",
+    "definicion": "Es el proceso continuo y coordinado, tendiente a obtener la restauración máxima de la persona con discapacidad en los aspectos funcionales, físico, psíquica, educacional, social, profesional y ocupacional, con el fin de reintegrarla como miembro productivo a la comunidad."
+  },
+  {
+    "id": 30,
+    "termino": "Inclusión",
+    "definicion": "Elaboración e implementación de acciones y políticas encaminadas al desarrollo socioeconómico y humano que apuntan a la igualdad de oportunidades y de derechos para todas las personas."
+  },
+  {
+    "id": 31,
+    "termino": "Inclusión Socioeconomica",
+    "definicion": "Genera espacios y oportunidades para que las personas en situación de vulnerabilidad autogestionen su propio desarrollo, aprovechando todos los recursos que le brinda la comunidad para su inclusión social y económica, con autonomía y autosostenibilidad. (incluye la participación de la persona en la vida de la comunidad)."
+  },
+  {
+    "id": 33,
+    "termino": "Integración",
+    "definicion": "Favorecer el desarrollo personal y profesional mediante la integración de la persona no solo a procesos de rehabilitación profesional, sino como una alternativa que permite realizar actividades ocupacionales productivas."
+  },
+  {
+    "id": 34,
+    "termino": "Invalidez",
+    "definicion": "Se considera inválida la persona que por cualquier causa de origen no profesional, no provocada intencionalmente, hubiere perdido el 50 % o más de su capacidad laboral."
+  },
+  {
+    "id": 35,
+    "termino": "Inválido",
+    "definicion": "Persona que por causa de origen profesional no provocada intencionalmente, hubiere perdido el 50% o más de su capacidad laboral."
+  },
+  {
+    "id": 36,
+    "termino": "Investigación de accidente de trabajo o incidente",
+    "definicion": "Proceso sistemático de determinación y ordenación de causas, hechos o situaciones que generaron o favorecieron la ocurrencia del accidente o incidente, que se realiza con el objeto de prevenir su repetición, mediante el control de los riesgos que lo produjeron."
+  },
+  {
+    "id": 38,
+    "termino": "Juntas de Calificación de Invalidez",
+    "definicion": "Organismos de creación legal, autónomos, sin ánimo de lucro, de carácter privado, sin personería jurídica, cuyas decisiones son de carácter obligatorio. Sus integrantes son designados por el Ministerio de Trabajo y Seguridad Social, de conformidad con lo señalado en el artículo 17 del presente decreto, no tienen el carácter de servidores públicos, no devengan salario, ni prestaciones sociales, sólo tienen derecho a los honorarios establecidos en el presente decreto. Los dictámenes de las juntas de calificación de invalidez no son actos administrativos y sólo pueden ser controvertidos ante la justicia laboral ordinaria con fundamento en el artículo 2o. del Código de Procedimiento Laboral."
+  },
+  {
+    "id": 39,
+    "termino": "Mesada adicional",
+    "definicion": "Los pensionados por vejez o jubilación, invalidez y sustitución o sobrevivencia continuarán recibiendo cada año, junto con la mesada del mes de noviembre, en la primera quincena del mes de diciembre, el valor correspondiente a una mensualidad adicional a su pensión."
+  },
+  {
+    "id": 40,
+    "termino": "Movilidad Reducida",
+    "definicion": "Es la restricción para desplazarse que presentan algunas personas debido a una discapacidad o que sin ser discapacitadas presentan algún tipo de limitación en su capacidad de relacionarse con el entorno al tener que acceder a un espacio o moverse dentro del mismo, salvar desniveles, alcanzar objetos situados en alturas normales."
+  },
+  {
+    "id": 41,
+    "termino": "Pérdida de la Capacidad Laboral",
+    "definicion": "Pérdida o disminución de las habilidades, destrezas, aptitudes y/o potencialidades de orden físico, mental y social que le permiten desempeñarse en su trabajo habitual."
+  },
+  {
+    "id": 42,
+    "termino": "Porcentaje de Invalidez",
+    "definicion": "Grado de pérdida de capacidad laboral."
+  },
+  {
+    "id": 43,
+    "termino": "Prevención",
+    "definicion": "Conjunto de acciones que tienen por objeto identificar, controlar, reducir o eliminar los riesgos derivados de la organización del trabajo, que pueden afectar la salud individual y colectiva en los lugares de trabajo, con el fin de de evitar que ocurran los accidentes laborales o enfermedades profesionales, u ocasionen mayores daños o secuelas en los trabajadores, en conclusión es detectar, evitar, controlar, minimizar, o eliminar los efectos y las consecuencias de los accidentes de trabajo y las enfermedades profesionales."
+  },
+  {
+    "id": 44,
+    "termino": "Prestaciones Asistenciales",
+    "definicion": "Servicios médicos, quirúrgicos, terapéuticos, farmacéuticos, odontológicos y de hospitalización, suministro de medicamentos, servicios auxiliares de diagnóstico y tratamiento, prótesis y órtesis, su reparación, y su reposición solo en casos de deterioro o desadaptación, cuando a criterio de rehabilitación se recomiende, rehabilitaciones física y profesional y gastos de traslado, que se le suministran a un trabajador que haya sufrido un accidente o se le diagnostique una enfermedad profesional."
+  },
+  {
+    "id": 45,
+    "termino": "Prestaciones Económicas",
+    "definicion": "Reconocimiento y pago de las prestaciones económicas que se le da un trabajador que sufra un accidente de trabajo o enfermedad profesional, las cuales son: Subsidio por Incapacidad Temporal; Indemnización por Incapacidad Permanente Parcial; Pensión de Invalidez; Pensión de sobrevivientes y Auxilio Funerario."
+  },
+  {
+    "id": 46,
+    "termino": "Programa de Salud Ocupacional",
+    "definicion": "Planeación, organización, ejecución, control y evaluación de todas aquellas actividades tendientes a preservar, mantener y mejorar la salud individual y colectiva de los trabajadores con el fin de evitar accidentes de trabajo y enfermedades profesionales."
+  },
+  {
+    "id": 47,
+    "termino": "Promoción",
+    "definicion": "Conjunto de actividades, intervenciones y programas dirigidos a las personas cuyo objeto es orientar el desarrollo o fortalecimiento de actitudes y hábitos que favorezcan la salud y el bienestar de los trabajadores, así como la participación activa en la identificación y búsqueda de soluciones a los problemas relacionados con las condiciones de trabajo y de vida."
+  },
+  {
+    "id": 48,
+    "termino": "Promoción de la Salud",
+    "definicion": "Busca establecer estilos de vida saludables, a fin de instaurar o fortalecer conductas que influyan en el mantenimiento de estados de salud óptimos en la persona, tenga o no una discapacidad."
+  },
+  {
+    "id": 49,
+    "termino": "Prevención",
+    "definicion": "En Habilitación /Rehabilitación se busca identificar oportunamente riesgos que aumenten la condición de discapacidad por la presencia de deficiencia."
+  },
+  {
+    "id": 50,
+    "termino": "Rehabilitación",
+    "definicion": "Es “el orden coordinado e individualizado de servicios cuyo objetivo principal es prevenir, minimizar o revertir la aparición de deficiencias, discapacidades y desventajas\" Fuhrer, citado por Amate."
+  },
+  {
+    "id": 51,
+    "termino": "Rehabilitación basada en la comunidad",
+    "definicion": "Es una estrategia que forma parte integral de la atención en salud. Debe apoyarse en la capacidad sanitaria instalada, especialmente en los servicios de rehabilitación e igualmente en el desarrollo de las responsabilidades de todos y cada uno de los sectores del gobierno con responsabilidad de intervención en la atención a la discapacidad. La RBC es ejecutada en la comunidad, por la comunidad y con recursos de la comunidad, con apoyo técnico y supervisión de la red de salud y los demás sectores."
+  },
+  {
+    "id": 52,
+    "termino": "Rehabilitación Profesional",
+    "definicion": "Proceso por el cual una persona logra compensar en el mayor grado posible las desventajas originadas en una deficiencia o una discapacidad que afecte su desempeño laboral que dificulta o impide su integración social y laboral. Busca su ubicación en una actividad productiva que se adapte a sus capacidades."
+  },
+  {
+    "id": 53,
+    "termino": "Régimen Contributivo.",
+    "definicion": "Es un conjunto de normas que rigen la vinculación de los individuos y las familias al Sistema General de Seguridad Social en Salud, cuando tal vinculación se hace a través del pago de una cotización, individual y familiar, o un aporte económico previo financiado directamente por el afiliado o en concurrencia entre éste y su empleador."
+  },
+  {
+    "id": 54,
+    "termino": "Régimen Subsidiado.",
+    "definicion": "Es un conjunto de normas que rigen la vinculación de los individuos al Sistema General de Seguridad Social en Salud, cuando tal vinculación se hace a través del pago de una cotización subsidiada, total o parcialmente, con recursos fiscales o de solidaridad."
+  },
+  {
+    "id": 55,
+    "termino": "Responsabilidad Administrativa",
+    "definicion": "Es la obligación económica que resulta por el incumplimiento a las normas del sistema general de riesgos profesionales. La vigilancia y control es ejercida por entidades como el Ministerio de la Protección Social, la Superintendencia Financiera y la Superintendencia Nacional de Salud por medio de la cual el empleador responde mediante multas o cierre de la empresas por incumplimiento de las normas."
+  },
+  {
+    "id": 56,
+    "termino": "Responsabilidad Civil",
+    "definicion": "Es la obligación económica que resulta como consecuencia de la negligencia u omisión en el cumplimiento de las normas en salud ocupacional de parte del empleador. Es ejercida por la justicia ordinaria por medio de la cual un Juez de la República define una indemnización de daños o perjuicios al trabajador y/o familiares cuando exista culpa suficientemente comprobada."
+  },
+  {
+    "id": 57,
+    "termino": "Responsabilidad Laboral",
+    "definicion": "Es la obligación económica (prestaciones económicas y asistenciales) mediante la cual los trabajadores están protegidos de las contingencias que se ocasionen con causa o con ocasión del trabajo, por accidente de trabajo y enfermedad profesional, que surge por la relación laboral o contrato de trabajo. Esta responsabilidad es la que el empleador debe asegurar a través de una administradora de riesgos profesionales."
+  },
+  {
+    "id": 58,
+    "termino": "Responsabilidad Penal",
+    "definicion": "Culpa o dolo del empleador, que surge de parte del causante del delito, al presentarse un accidente de trabajo por las lesiones o el homicidio del trabajador. La responsabilidad penal es asumida directamente por el causante del accidente mortal, llámese gerente, jefe inmediato, compañero de trabajo o supervisor, quienes pueden ser privados de su libertad como consecuencia de un proceso penal por homicidio. Es ejercida por la justicia ordinaria."
+  },
+  {
+    "id": 59,
+    "termino": "Retiro",
+    "definicion": "Es el proceso mediante el cual una empresa se desvincula de una administradora de riesgos profesionales, ya sea para trasladarse a otra Administradora de riesgos profesionales o por liquidación de la misma."
+  },
+  {
+    "id": 60,
+    "termino": "Retiro Programado",
+    "definicion": "El retiro programado es la modalidad de pensión en la cual el afiliado o los beneficiarios obtienen su pensión de la sociedad administradora, con cargo a su cuenta individual de ahorro pensional y al bono pensional a que hubiera lugar."
+  },
+  {
+    "id": 61,
+    "termino": "Salud Ocupacional",
+    "definicion": "Las administradoras de riesgos profesionales deberán garantizar y proporcionar a las pequeñas, medianas y grandes empresas afiliadas, capacitación y asistencia técnica para el desarrollo de los programas de salud ocupacional, sin importar el número de trabajadores y cotización de la empresa. Se debe capacitar y dar asistencia técnica en lo relacionado con los programas regulares de prevención y control de riesgos profesionales, diseño, montaje y operación de los sistemas de vigilancia epidemiológica, conforme a la actividad económica de la empresa, sin importar el número de trabajadores."
+  },
+  {
+    "id": 62,
+    "termino": "Sistema General de Riesgos Profesionales",
+    "definicion": "El Sistema General de Riesgos Profesionales, es el conjunto de entidades públicas y privadas, normas y procedimientos, destinados a prevenir, proteger y atender a los trabajadores de los efectos de las enfermedades y los accidentes que puedan ocurrirles con ocasión o como consecuencia del trabajo que desarrollan."
+  },
+  {
+    "id": 63,
+    "termino": "Atención domiciliaria para persona mayor",
+    "definicion": "Modalidad orientada a prestar servicio domiciliario con el fin de proporcionalr bienestar a la Persona mayor en la residencia del usuario."
+  },
+  {
+    "id": 64,
+    "termino": "Teleasistencia Domiciliaria",
+    "definicion": "Modalidad destinada a la asistencia en crisis personales, sociales o médicas de los Personas mayores mediante el contacto telefónico inmediato con una persona o centro de atención especializada, para proporcionarles seguridad y mejorar su calidad de vida."
+  },
+  {
+    "id": 65,
+    "termino": "Centros día para persona mayor",
+    "definicion": "Sitio que funciona en horario diurno, generalmente ocho (8) horas diarias durante cinco (5) o seis (6) días a la semana, orientada al cuidado y bienestar integral de la Persona Mayor."
+  },
+  {
+    "id": 66,
+    "termino": "Centros Residenciales para la Persona Mayor",
+    "definicion": "Centro destinado a la vivienda permanente o temporal de las personas mayores, donde se ofrezcan servicios de hospedaje, alimentación, recreación, actividades productivas y cuidado integral a la persona mayor. Estos centros también pueden ofrecer servicios de centro día, domiciliario y o teleasistencia."
+  },
+  {
+    "id": 67,
+    "termino": "Centros de Promoción y Protección Social para la persona mayor",
+    "definicion": "Son centros que prestan atención, cuidado, servicios y ofrecen opciones de desarrollo a las personas mayores; son espacios favorables para la socialización, recreación, capacitación, productividad y desarrollo de proyectos de vida digna. (Son también conocidos como ancianatos, pero la denominación esta cambiando en pro de la significación del ser humano). Pueden ser de 4 modalidades así:"
+  },
+  {
+    "id": 68,
+    "termino": "Persona Mayor",
+    "definicion": "Persona sin distingo de género, mayor de 60 años; léase también como: Adulto mayor, persona de la tercera edad, anciano, entre otros."
+  },
+  {
+    "id": 69,
+    "termino": "Promoción Social",
+    "definicion": "Consiste en crear condiciones para que la población no caiga en situaciones de privación socialmente inadmisibles, igualdad de oportunidades en el acceso y calidad del conjunto básico de servicios sociales."
+  },
+  {
+    "id": 70,
+    "termino": "Sistema de Garantía de Calidad de la Promoción Social de la Persona Mayor",
+    "definicion": "Es el conjunto y relaciones entre los centros, modalidades, normas, requisitos, mecanismos y procesos deliberados y sistemáticos que desarrolla el Sector de la Protección Social para generar, mantener y mejorar la calidad de los servicios que atienden Personas mayores en el país. Los elementos que componen este Sistema son: las entidades territoriales en los niveles nacional, departamental y municipal, los Centros en sus diferentes modalidades, la familia, la sociedad en concordancia con el artículo 46 de la Constitución Nacional. Igualmente son elementos del Sistema el proceso de Habilitación y el Sistema de Información."
+  },
+  {
+    "id": 83,
+    "termino": "ARS",
+    "definicion": "Administradoras del Régimen Subsidiado."
+  },
+  {
+    "id": 84,
+    "termino": "ATC",
+    "definicion": "El código ATC es el código de clasificación anatómica-terapéutica-química asignado por el Collaborating Centre for Drug Statistics Methodology de la OMS. El sistema ATC/DDD es una herramienta usada para investigar la utilización de los medicamentos con objeto de mejorar la calidad en el uso de los mismos. Un componente de esto es la presentación y comparación de estadísticas sobre consumo de medicamentos al nivel internacional y a otros niveles. En el sistema de clasificación ATC, los medicamentos se dividen en grupos diferentes conforme al órgano o sistema sobre el cual actúan, y a sus propiedades químicas, farmacológicas y terapéuticas. Los medicamentos se clasifican en grupos a cinco niveles diferentes. También se dividen en 14 grupos principales (1r. nivel), con un subgrupo farmacológico/terapéutico (2do. nivel). Los niveles 3ro. y 4to. son subgrupos químicos / farmacológicos / terapéuticos y el 5to. nivel es la sustancia química."
+  },
+  {
+    "id": 85,
+    "termino": "Biodisponibilidad",
+    "definicion": "Indica la cantidad de fármaco terapéuticamente activo que alcanza la circulación general y la velocidad a la cual lo hace, después de la administración de la forma farmacéutica"
+  },
+  {
+    "id": 86,
+    "termino": "Clases Terapéuticas",
+    "definicion": "Las clases terapéuticas agrupan medicamentos que poseen cierto grado de sustitución entre sí, por lo cual permiten definir, aunque de manera imperfecta, los mercados en el sector farmacéutico. Es decir, un medicamento utilizado para el tratamiento de la hipertensión arterial es un pobre sustituto de un antigripal, por lo cual compiten en mercados distintos. De este modo, el mercado farmacéutico se encuentra segmentado dependiendo del tratamiento terapéutico al que se orienten los productos. Existen numerosas clases terapéuticas dependiendo del área del cuerpo humano afectada por una enfermedad y del tipo de dolencia. Sin embargo, dentro de cada clase terapéutica se observa la competencia de productos con distintos niveles de sustitución: alto grado (cuando se trata del mismo principio activo) o de menor grado (cuando se trata de distintos principios activos)."
+  },
+  {
+    "id": 87,
+    "termino": "Clasificación Terapéutica Relevante -CTR",
+    "definicion": "Grupo de medicamentos utilizados con el mismo fin terapéutico (acción farmacológica semejante) y que compiten directamente en un mercado."
+  },
+  {
+    "id": 88,
+    "termino": "CNPM",
+    "definicion": "La Comisión Nacional de Precios de Medicamentos CNPM es una comisión de alto nivel creada por Ley 100, integrada por el Ministro de la Protección Social, el Ministro Comercio Industria y Turismo y un Delegado personal del Presidente de la República, encargada de dictar las políticas de regulación de precios de medicamentos."
+  },
+  {
+    "id": 89,
+    "termino": "Concentración",
+    "definicion": "Cantidad de principio activo que contiene un medicamento."
+  },
+  {
+    "id": 90,
+    "termino": "Denominación Común Internacional",
+    "definicion": "Nombre común para los medicamentos recomendado por la Organización Mundial de la Salud, a objeto de lograr su identificación internacional."
+  },
+  {
+    "id": 91,
+    "termino": "Entidades",
+    "definicion": "Las entidades reportadoras deben reportar trimestralmente a esta Comisión los Precios Promedio a Distribuidor (PPD) y Sugerido al Público (PSP) de todos los productos que comercializan."
+  },
+  {
+    "id": 92,
+    "termino": "EPS",
+    "definicion": "Empresas Promotoras de Salud."
+  },
+  {
+    "id": 93,
+    "termino": "Fármaco",
+    "definicion": "Es el principio activo de un producto farmacéutico."
+  },
+  {
+    "id": 94,
+    "termino": "FMC",
+    "definicion": "La Federación Medica Colombiana tiene por objeto congregar a todos los médicos colombianos para luchar unidos por la defensa de la profesión con el fin de que ésta rinda los más amplios resultados morales y sociales a favor de los que científicamente tienen el derecho a ejercerla y de la población Colombiana."
+  },
+  {
+    "id": 95,
+    "termino": "Forma Farmacéutica",
+    "definicion": "Forma en la cual se presenta un producto farmacéutico terminado que permite su dosificación y aplicación terapéutica."
+  },
+  {
+    "id": 96,
+    "termino": "Indice de Precios del Productos (IPP)",
+    "definicion": "Indicador de la evolución de los precios pagados al productor, y se utiliza con frecuencia como indicador de precios al por mayor."
+  },
+  {
+    "id": 97,
+    "termino": "IPS",
+    "definicion": "Institución Prestadora de Servicios de Salud."
+  },
+  {
+    "id": 98,
+    "termino": "Marca Original",
+    "definicion": "Producto original, primera patente creada con ese principio activo."
+  },
+  {
+    "id": 99,
+    "termino": "Medicamento",
+    "definicion": "Es aquél preparado farmacéutico obtenido a partir de principios activos, con o sin sustancias auxiliares, presentado bajo forma farmacéutica que se utiliza para la prevención, alivio, diagnóstico, tratamiento, curación o rehabilitación de la enfermedad. Los envases, rótulos, etiquetas y empaques hacen parte integral del medicamento, por cuanto éstos garantizan su calidad, estabilidad y uso adecuado"
+  },
+  {
+    "id": 100,
+    "termino": "Medicamento de Venta Libre (Sin fórmula médica)",
+    "definicion": "Se entiende como medicamentos de venta sin fórmula médica aquellos productos farmacéutico que el consumidor puede adquirir sin la mediación del prescriptor y están destinados a la prevención o al tratamiento, alivio de síntomas signos o enfermedades leves que son reconocidas adecuadamente por los pacientes y en ciertas enfermedades crónicas previo entrenamiento y consentimiento por parte del o de los médicos tratantes."
+  },
+  {
+    "id": 101,
+    "termino": "Medicamento Esencial",
+    "definicion": "Es aquel que reúne características de ser el más costo efectivo en el tratamiento de una enfermedad, en razón de su eficacia y seguridad farmacológica, por dar una respuesta más favorable a los problemas de mayor relevancia en el perfil de morbimortalidad de una comunidad y porque su costo se ajusta a las condiciones de la economía del país. Corresponden a los contenidos en el listado de medicamentos del Plan Obligatorio de Salud, POS, del Sistema de Seguridad Social en Salud."
+  },
+  {
+    "id": 102,
+    "termino": "Medicamento Génerico",
+    "definicion": "Nombre empleado para distinguir el principio activo que no está amparado por una marca de fábrica. El nombre genérico corresponde generalmente con la Denominación Común Internacional recomendada por la OMS y es usado comúnmente por los fabricantes y reconocido por la autoridad competente para denominar productos farmacéuticos que tienen el mismo principio activo."
+  },
+  {
+    "id": 103,
+    "termino": "Medicamento Nuevo",
+    "definicion": "Es aquel cuyo principio activo no ha sido incluido en el Manual de Normas Farmacológicas o aquel que, estando incluido en él corresponda a nuevas asociaciones o dosis fijas, o a nuevas indicaciones, o nuevas formas farmacéuticas, modificaciones que impliquen cambios en la farmacocinética, cambios en la vía de administración o en las condiciones de comercialización. Incluye también las sales, ésteres, solvatos u otros derivados no contemplados en los textos reconocidos científicamente en el país."
+  },
+  {
+    "id": 104,
+    "termino": "Medicamento Vital no Disponible",
+    "definicion": "Es un medicamento indispensable e irremplazable para salvaguardar la vida o aliviar el sufrimiento de un paciente o un grupo de pacientes y que por condiciones de baja rentabilidad en su comercialización, no se encuentra disponible en el país o las cantidades no son suficientes"
+  },
+  {
+    "id": 105,
+    "termino": "Medicamentos Iguales",
+    "definicion": "Aquellos que tienen la misma molécula, concentración, presentación y fórmula farmacéutica."
+  },
+  {
+    "id": 106,
+    "termino": "Precios Promedio a Distribuidor",
+    "definicion": "El Precio Promedio a Distribuidor (PPD) corresponde a la media aritmética de los precios a que las entidades reportadoras facturan un producto a mayoristas, cadenas y demás clientes directos (sin incluir Instituciones)."
+  },
+  {
+    "id": 107,
+    "termino": "Precios Sugeridos al Público (PSP)",
+    "definicion": "El PSP corresponde al Precio Sugerido al Público que las entidades reportadoras reportan a la Comisión Nacional de Precios de Medicamentos."
+  },
+  {
+    "id": 108,
+    "termino": "Presentación Comercial",
+    "definicion": "Forma de empaque y distribución de los medicamentos con sus respectivas medidas de contenido. Puede ser caja, blister, sobre, frasco, x10 x20 x30 x500, unidades, mililitros, gramos, etc."
+  },
+  {
+    "id": 109,
+    "termino": "Principio Activo",
+    "definicion": "Compuesto o mezcla de compuestos que tiene una acción farmacológica"
+  },
+  {
+    "id": 110,
+    "termino": "Regímenes de Control",
+    "definicion": "Son los regímenes en los cuales se puede ubicar un medicamento, dependiendo de su comportamiento en el mercado."
+  },
+  {
+    "id": 111,
+    "termino": "Régimen de Control Directo",
+    "definicion": "En el cual la entidad responsable fija el precio máximo de venta al público, en cualquiera de los niveles, que productores y distribuidores pueden cobrar por el bien o servicio en cuestión."
+  },
+  {
+    "id": 112,
+    "termino": "Régimen de Libertad Regulada",
+    "definicion": "En el cual la entidad responsable fija los criterios y la metodología para que los productores o distribuidores determinen o modifiquen los precios máximos de venta al público en cualquiera de los niveles de los bienes o servicios sometidos a este régimen."
+  },
+  {
+    "id": 113,
+    "termino": "Régimen de Libertad Vigilada",
+    "definicion": "Bajo esta modalidad los productores y distribuidores pueden determinar los precios de los bienes en cuestión, bajo la obligación de informar por escrito a la entidad responsable del control, las variaciones y determinaciones de los precios de acuerdo con la metodología que la entidad defina."
+  },
+  {
+    "id": 114,
+    "termino": "Régimen de Dosificación",
+    "definicion": "Se refiere a la cantidad indicada para la administración de un medicamento, los intervalos entre las administraciones y la duración del tratamiento."
+  },
+  {
+    "id": 115,
+    "termino": "Régimen Sanitario",
+    "definicion": "Es el documento público expedido por el INVIMA o la autoridad delegada, previo el procedimiento tendiente a verificar el cumplimiento de los requisitos técnico-legales establecidos en el Decreto 677/95, el cual faculta a una persona natural o jurídica para producir, comercializar, importar, exportar, envasar, procesar y/o expender los medicamentos cosméticos, preparaciones farmacéuticas a base de recursos naturales, productos de aseo, higiene y limpieza y otros productos de uso doméstico."
+  },
+  {
+    "id": 116,
+    "termino": "TSA",
+    "definicion": "Software brindado por el Ministerio de la Protección Social para transporte seguro de archivos desde la fuente"
+  },
+  {
+    "id": 117,
+    "termino": "Vía de Administración",
+    "definicion": "Es la vía por la que un medicamento se introduce en el organismo."
+  },
+  {
+    "id": 118,
+    "termino": "Cautivo",
+    "definicion": "Aquellos afiliados (cotizantes, beneficiarios, adicionales) del régimen contributivo, que lleven mínimo cuatro (4) meses consecutivos sin haber sido presentados en el proceso de compensación y/o en el reporte de saldos no compensados."
+  },
+  {
+    "id": 119,
+    "termino": "CCF",
+    "definicion": "Las Cajas de Compensación Familiar son Entidades Privadas, sin ánimo de lucro, organizadas como corporaciones de carácter civil, vigiladas por la Superintendencia del Subsidio Familiar, cuya principal función es redistribuír una parte del ingreso de toda la fuerza laboral, entre los trabajadores de menores ingresos. El Subsidio Familiar es una prestación social pagadera en dinero, especie y servicios, a los trabajadores de medianos y menores ingresos, en proporción al número de personas a cargo, siendo su objetivo fundamental el alivio de las cargas económicas que representa el sostenimiento de la familia como núcleo básico de la sociedad. (Asocajas). La Ley 100 de 1993 las faculta para crear y prestar servicios de salud.\""
+  },
+  {
+    "id": 121,
+    "termino": "Afiliación",
+    "definicion": "Es el procedimiento mediante el cual los potenciales beneficiarios del Régimen Subsidiado y su núcleo familiar se vinculan al Sistema General de Seguridad Social en Salud."
+  },
+  {
+    "id": 122,
+    "termino": "BDUA (Base Única de Afiliados)",
+    "definicion": "Es la base que contiene la información de los afiliados plenamente identificados, del los distintos regímenes del Sistema de Seguridad Social en Salud. (Régimen Subsidiado, Contributivo y Regímenes especiales)."
+  },
+  {
+    "id": 123,
+    "termino": "Contrareferencia",
+    "definicion": "Es la respuesta que las IPS receptoras de la referencia, dan al organismo o la unidad familiar. La respuesta puede ser la contraremisión del usuario con las debidas indicaciones a seguir o, simplemente, la información sobre la atención recibida por el usuario en una institución receptora, o el resultado de las solicitudes de ayuda diagnóstica."
+  },
+  {
+    "id": 124,
+    "termino": "Copagos",
+    "definicion": "Los copagos son los aportes en dinero que corresponden a una parte del valor del servicio demandado y tienen como finalidad ayudar a financiar el sistema."
+  },
+  {
+    "id": 125,
+    "termino": "EPS-S",
+    "definicion": "Son las entidades responsables de la afiliación y prestación del Plan obligatorio de salud del Régimen Subsidiado a los beneficiarios de éste."
+  },
+  {
+    "id": 126,
+    "termino": "Fosyga (Fondo de Solidaridad y Garantía)",
+    "definicion": "Es una cuenta adscrita al Ministerio de Protección Social que se maneja por encargo fiduciario, en la cual se depositan los recursos del Sistema de Seguridad Social en Salud."
+  },
+  {
+    "id": 127,
+    "termino": "FTP (File Transfer Protocol)",
+    "definicion": "Es un protocolo de transferencia de archivos entre sistemas conectados a una red TCP entre un cliente y un servidor, en el cual desde el equipo de un cliente (Entidad territorial) se puede conectar a un servidor (Consorcio Fidufosyga) para descargar archivos desde él o para enviarle archivos (Archivo maestro o de novedades de afiliados)."
+  },
+  {
+    "id": 128,
+    "termino": "Interventoria",
+    "definicion": "Es un proceso permanente dirigido a fortalecer la operación del Régimen Subsidiado y verificar el cumplimiento de las obligaciones del contrato de aseguramiento para garantizar el acceso de la población al Sistema General de Seguridad Social en Salud, bajo los principios de calidad, oportunidad, eficiencia y eficacia."
+  },
+  {
+    "id": 129,
+    "termino": "IPS",
+    "definicion": "Son las Instituciones encargadas de prestar los servicios de salud en su nivel de atención correspondiente a los afiliados y beneficiarios dentro de los parámetros y principios señalados en la presente Ley."
+  },
+  {
+    "id": 130,
+    "termino": "Listado de priorizados",
+    "definicion": "Es la lista de potenciales beneficiarios del Régimen Subsidiado en la cual se organizan las personas de los niveles I y II del Sisben, de acuerdo con el puntaje y antigüedad de la encuesta."
+  },
+  {
+    "id": 131,
+    "termino": "Listados Censales",
+    "definicion": "Es el mecanismo para identificar la población con características especiales, tales como; indígenas, desplazados, desmovilizados, población infantil abandonada, población indigente, personas de la tercera edad en protección de ancianatos, entre otras."
+  },
+  {
+    "id": 132,
+    "termino": "Municipios Conurbados",
+    "definicion": "Son aquellos municipios que se encuentran cerca al área metropolitana de las principales ciudades del país. Estos municipios son (Soledad, Soacha, Bello, Envigado, Itagui y Sabaneta)."
+  },
+  {
+    "id": 133,
+    "termino": "POS-S (Plan Obligatorio de Salud-subsidiado)",
+    "definicion": "Es el conjunto de actividades, procedimientos e intervenciones, servicios, insumos y medicamentos al que tienen derecho los afiliados al Régimen Subsidiado."
+  },
+  {
+    "id": 134,
+    "termino": "Régimen Subsidiado (RS)",
+    "definicion": "Es un conjunto de normas y procedimientos que rigen la vinculación de la población pobre y vulnerable al Sistema General de Seguridad Social en Salud, con recursos de la Nación y Entidades Territoriales."
+  },
+  {
+    "id": 135,
+    "termino": "Remisión",
+    "definicion": "Envío de usuarios o elementos de ayuda diagnóstica por parte de las IPS a otras IPS para atención o complementación diagnóstica, que de acuerdo con el grado de complejidad, den respuesta a las necesidades de salud."
+  },
+  {
+    "id": 136,
+    "termino": "SGP-Salud",
+    "definicion": "Es la Participación de Salud en el Sistema General de Participaciones de los municipios y departamentos, esta a su vez esta dividida con los recursos del Régimen Subsidiado, Salud Pública y Prestación de servicios a la población pobre no atendida con subsidios a la demanda."
+  },
+  {
+    "id": 137,
+    "termino": "Sisben (Sistema de identificación y Clasificación de potenciales beneficiarios)",
+    "definicion": "Es una herramienta de identificación, que organiza a los individuos de acuerdo con su estándar de vida y permite la selección técnica, objetiva, uniforme y equitativa de beneficiarios de los programas sociales que maneja el Estado, de acuerdo con su condición socioeconómica particular."
+  },
+  {
+    "id": 138,
+    "termino": "Sistema de Seguridad Social en Salud",
+    "definicion": "Es un conjunto armónico de entidades públicas y privadas, normas y procedimientos, que procuran la prestación del servicio y fijan condiciones de acceso en todos los niveles de atención, bajo el fundamento de garantizar la atención integral a toda población. • Subcuenta de compensación. • Subcuenta de ECAT. • Subcuenta de promoción de la salud."
+  },
+  {
+    "id": 139,
+    "termino": "Subsidio parcial",
+    "definicion": "Es un derecho que garantiza algunos contenidos del Plan Obligatorio de Salud del régimen subsidiado, POS-S. De igual manea representa una proporción del valor de la unidad de pago por capitación subsidiada UPC-S."
+  },
+  {
+    "id": 140,
+    "termino": "Subsidio Pleno",
+    "definicion": "Es un derecho que garantiza el Plan Obligatorio de Salud financiada a través de la UPC-S, con atención preventiva, médico-quirúrgica y medicamentos esenciales."
+  },
+  {
+    "id": 141,
+    "termino": "UPC-S diferencial",
+    "definicion": "Es la prima que reconoce un 2% adicional en la UPC en aquellos municipios que presentan mayor siniestralidad respecto al resto de los municipios del país, éstos son: Bogotá, Cali, Medellín, Barranquilla y los municipios conurbados."
+  },
+  {
+    "id": 142,
+    "termino": "UPC-S especial",
+    "definicion": "Es la prima adicional que reconoce el gobierno nacional para aquellos municipios que presentan una mayor dispersión poblacional generando mayores costos de transporte. Estos son los municipios de los departamentos de Amazonas, Arauca, Casanare, Caquetá, Chocó, Guajira, Guainía, Guaviare, Meta, Putumayo, San Andrés y providencia, Sucre, Vaupés, Vichada y de la región de Urabá. Exceptuando las ciudades de Arauca, Florencia, Riohacha, Sincelejo, Villavicencio, Yopal."
+  },
+  {
+    "id": 143,
+    "termino": "UPC-S (Unidad de Pago por capitación)",
+    "definicion": "Es la prima que se reconoce a las EPS-S por cada uno de los afiliados al Régimen Subsidiado, con el fin de garantizar el acceso a los servicios contemplados en el POS-S."
+  },
+  {
+    "id": 144,
+    "termino": "UPC-S (Unidad de Pago por capitación)",
+    "definicion": "Es la prima que se reconoce a las EPS-S por cada uno de los afiliados al Régimen Subsidiado, con el fin de garantizar el acceso a los servicios contemplados en el POS-S."
+  }
+]

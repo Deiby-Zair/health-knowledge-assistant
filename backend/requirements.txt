@@ -1,0 +1,9 @@
+bs4
+dotenv
+fastapi
+google-genai
+openai
+PyPDF2
+qdrant-client
+requests
+sentence-transformers
