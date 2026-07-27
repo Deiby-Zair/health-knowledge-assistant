@@ -1,6 +1,9 @@
 import os
-from dotenv import load_dotenv
 from pathlib import Path
+
+from dotenv import load_dotenv
+
+from backend.src.rag.schemas import LLMResponse
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 load_dotenv(BASE_DIR / ".env")
@@ -13,20 +16,33 @@ if PROVIDER == "openai":
 
 elif PROVIDER == "gemini":
     from google import genai
+    from google.genai import types
+
     client = genai.Client(api_key=os.getenv("GEMINI_API_KEY"))
 
-def generate(prompt: str) -> str:
+
+def generate(prompt: str) -> LLMResponse:
+
     if PROVIDER == "openai":
-        response = client.chat.completions.create(
+        response = client.responses.parse(
             model="gpt-4.1-mini",
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.2
+            input=prompt,
+            text_format=LLMResponse,
         )
-        return response.choices[0].message.content
+
+        return response.output_parsed
 
     elif PROVIDER == "gemini":
         response = client.models.generate_content(
-            model="gemini-2.5-flash",
-            contents=prompt
+            model=os.getenv("GEMINI_MODEL"),
+            contents=prompt,
+            config=types.GenerateContentConfig(
+                response_mime_type="application/json",
+                response_schema=LLMResponse,
+                temperature=0.2,
+            ),
         )
-        return response.text
+
+        return LLMResponse.model_validate_json(response.text)
+
+    raise ValueError(f"Proveedor no soportado: {PROVIDER}")

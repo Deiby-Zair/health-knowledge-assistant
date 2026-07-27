@@ -1,4 +1,5 @@
 from dotenv import load_dotenv
+from pathlib import Path
 
 import os
 
@@ -7,4 +8,7 @@ from backend.src.ingest.fetch_sharepoint import fetch_data_from_sharepoint
 load_dotenv()
 LIST_ID = os.getenv("GLOSSARY_GUID")
 
-fetch_data_from_sharepoint(LIST_ID, "./data/raw/glossary_raw.json")
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
+OUTPUT_FILE = PROJECT_ROOT / "data" / "raw" / "glossary_raw.json"
+
+fetch_data_from_sharepoint(LIST_ID, OUTPUT_FILE)

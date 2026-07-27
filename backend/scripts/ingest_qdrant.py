@@ -3,21 +3,21 @@ import json
 from pathlib import Path
 from qdrant_client import QdrantClient
 from qdrant_client.models import PointStruct
-from sentence_transformers import SentenceTransformer
+
+from backend.src.embeddings.embedding_manager import get_embedding_provider
 
 BASE_DIR = Path(__file__).resolve().parents[1]
 QDRANT_PATH = BASE_DIR / "qdrant_data"
+
 #  local conection
 client = QdrantClient(path=str(QDRANT_PATH))
 
 # Modelo de embeddings
-model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+embedder = get_embedding_provider()
 
-PROJECT_ROOT = Path(__file__).resolve().parents[1]
-
-INPUT_FAQ = PROJECT_ROOT / "data" / "chunks" / "faq_chunks.json"
-INPUT_GLOSSARY = PROJECT_ROOT / "data" / "chunks" / "glossary_chunks.json"
-INPUT_PDF = PROJECT_ROOT / "data" / "chunks" / "pdf_chunks.json"
+INPUT_FAQ = BASE_DIR / "data" / "chunks" / "faq_chunks.json"
+INPUT_GLOSSARY = BASE_DIR / "data" / "chunks" / "glossary_chunks.json"
+INPUT_PDF = BASE_DIR / "data" / "chunks" / "pdf_chunks.json"
 
 with open(INPUT_FAQ, "r", encoding="utf-8") as f:
     faq_chunks = json.load(f)
@@ -30,11 +30,13 @@ with open(INPUT_PDF, "r", encoding="utf-8") as f:
 
 chunks = faq_chunks + glossary_chunks + pdf_chunks
 
+texts = [chunk["text"] for chunk in chunks]
+
+embeddings = embedder.embed(texts)
+
 points = []
 
-for i, chunk in enumerate(chunks):
-    embedding = model.encode(chunk["text"]).tolist()
-
+for i, (chunk, embedding) in enumerate(zip(chunks, embeddings)):
     points.append(
         PointStruct(
             id=i,
@@ -45,7 +47,7 @@ for i, chunk in enumerate(chunks):
             }
         )
     )
-
+    
 client.upsert(
     collection_name="minsalud_rag",
     points=points

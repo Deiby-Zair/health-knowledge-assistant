@@ -1,48 +1,104 @@
+import logging
+
+from backend.src.rag.prompt_builder import build_prompt
 from backend.src.rag.retriever import retrieve_context
 from backend.src.rag.llm_manager import generate_response
 
+logger = logging.getLogger(__name__)
 
-def ask(question: str):
 
-    # Recuperar contexto
-    context, sources = retrieve_context(
-        question,
-        limit=10,
-    )
+def ask(question: str) -> dict:
+    """
+    Ejecuta el flujo RAG completo.
 
-    prompt = f"""
-Eres un asistente del sistema de salud colombiano.
+    Returns
+    -------
+    dict
+        {
+            success,
+            answer,
+            confidence,
+            sources,
+            used_rag,
+            error
+        }
+    """
 
-Responde apoyándote mayoritariamente en el contexto proporcionado.
+    question = question.strip()
 
-Si no encuentras la respuesta, indica claramente que respondes fuera del contexto RAG.
+    if not question:
+        return {
+            "success": False,
+            "answer": "Debes ingresar una pregunta.",
+            "confidence": 0.0,
+            "sources": [],
+            "used_rag": False,
+            "error": "Empty question",
+        }
 
-Responde únicamente aspectos relacionados con el sistema de salud colombiano.
+    try:
+        context, sources = retrieve_context(
+            question=question,
+            limit=10,
+        )
 
-CONTEXTO:
-{context}
-
-PREGUNTA:
-{question}
-"""
-
-    response = generate_response(prompt)
-
-    if response.success:
+    except Exception as e:
+        logger.exception("Error recuperando contexto.")
 
         return {
-            "success": True,
-            "answer": response.answer,
+            "success": False,
+            "answer": (
+                "No fue posible consultar la base de conocimiento en este momento."
+            ),
+            "confidence": 0.0,
+            "sources": [],
+            "used_rag": False,
+            "error": str(e),
+        }
+
+    has_context = bool(context.strip())
+
+    prompt = build_prompt(
+        question=question,
+        context=context,
+    )
+
+    try:
+        response = generate_response(prompt)
+
+    except Exception as e:
+        logger.exception("Error llamando al proveedor LLM.")
+
+        return {
+            "success": False,
+            "answer": (
+                "No fue posible generar una respuesta en este momento. "
+                "El servicio de IA se encuentra temporalmente no disponible."
+            ),
+            "confidence": 0.0,
             "sources": sources,
+            "used_rag": has_context,
+            "error": str(e),
+        }
+
+    if not response.success:
+        return {
+            "success": False,
+            "answer": (
+                "No fue posible generar una respuesta en este momento. "
+                "El servicio de IA se encuentra temporalmente no disponible."
+            ),
+            "confidence": 0.0,
+            "sources": sources,
+            "used_rag": has_context,
+            "error": response.error,
         }
 
     return {
-        "success": False,
-        "answer": (
-            "No fue posible generar una respuesta en este momento. "
-            "El servicio de IA se encuentra temporalmente no disponible. "
-            "Intenta nuevamente en unos segundos."
-        ),
+        "success": True,
+        "answer": response.answer.answer,
+        "confidence": response.answer.confidence,
         "sources": sources,
-        "error": response.error,
+        "used_rag": has_context,
+        "error": None,
     }

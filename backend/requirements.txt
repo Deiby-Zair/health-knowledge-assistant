@@ -2,6 +2,7 @@ bs4
 dotenv
 fastapi
 google-genai
+langchain-text-splitters
 openai
 PyPDF2
 qdrant-client

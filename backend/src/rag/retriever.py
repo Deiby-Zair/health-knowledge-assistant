@@ -1,30 +1,63 @@
-from qdrant_client import QdrantClient
-from sentence_transformers import SentenceTransformer
-
 from pathlib import Path
+
+from qdrant_client import QdrantClient
+
+from backend.src.embeddings.embedding_manager import get_embedding_provider
+from backend.src.rag.schemas import Source
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 QDRANT_PATH = BASE_DIR / "qdrant_data"
 
-# Inicializar una sola vez
+COLLECTION_NAME = "minsalud_rag"
+MIN_SCORE = 0.45
+
 qdrant = QdrantClient(path=str(QDRANT_PATH))
-embed_model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+embedder = get_embedding_provider()
 
-def retrieve_context(question: str, limit: int = 3):
-    # 1. Embedding de la pregunta
-    query_vector = embed_model.encode(question).tolist()
 
-    # 2. Buscar en Qdrant
+def retrieve_context(question: str, limit: int = 5):
+    query_vector = embedder.embed([question])[0]
+
     results = qdrant.query_points(
-        collection_name="minsalud_rag",
+        collection_name=COLLECTION_NAME,
         query=query_vector,
-        limit=limit
+        limit=limit,
     ).points
 
-    # 3. Construir contexto
-    context = "\n\n".join(r.payload["text"] for r in results)
+    if not results:
+        return "", []
 
-    # 4. Extraer fuentes únicas
-    sources = list({r.payload.get("source") for r in results})
+    # Filtrar por similitud
+    results = [
+        r
+        for r in results
+        if r.score is not None and r.score >= MIN_SCORE
+    ]
+
+    if not results:
+        return "", []
+
+    context = "\n\n".join(
+        r.payload["text"].strip()
+        for r in results
+    )
+
+    sources = []
+
+    seen = set()
+
+    for r in results:
+
+        source = Source(
+            title=r.payload.get("title", "Sin título"),
+            location=r.payload.get("location"),
+            score=round(r.score, 3),
+        )
+
+        key = (source.title, source.location)
+
+        if key not in seen:
+            seen.add(key)
+            sources.append(source)
 
     return context, sources
