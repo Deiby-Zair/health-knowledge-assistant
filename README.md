@@ -1,28 +1,40 @@
 # 🩺 Health Knowledge Assistant
 
-An AI-powered Retrieval-Augmented Generation (RAG) assistant that provides reliable information about the Colombian healthcare system using semantic search and Large Language Models.
+An AI-powered Retrieval-Augmented Generation (RAG) assistant that provides reliable information about the Colombian healthcare system using semantic search and Large Language Models (LLMs).
 
-Built with a decoupled architecture featuring a **FastAPI backend**, **Next.js frontend**, and **Qdrant vector database**.
+Built with a decoupled architecture featuring a **FastAPI backend**, **Next.js frontend**, and **Qdrant Cloud** as the vector database.
+
+![Python](https://img.shields.io/badge/Python-3.12-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-latest-009688)
+![Next.js](https://img.shields.io/badge/Next.js-15-black)
+![Qdrant](https://img.shields.io/badge/Qdrant-Cloud-red)
+![License](https://img.shields.io/badge/License-Portfolio-lightgrey)
+
+---
 
 ## Features
 
-* 🔎 Retrieval-Augmented Generation (RAG)
-* 🧠 Semantic search with vector embeddings
-* 📖 Source-aware responses with citations
-* 🔄 Provider-agnostic LLM integration (OpenAI & Gemini)
-* ⚡ FastAPI REST API
-* 💬 Modern chat interface with Next.js
-* 🏗️ Modular and scalable architecture
+- 🔎 Retrieval-Augmented Generation (RAG)
+- 🧠 Semantic search using vector embeddings
+- 📖 Source-aware responses with document citations
+- 🤖 Provider-agnostic LLM integration (Gemini & OpenAI)
+- ☁️ Cloud-native vector database with Qdrant Cloud
+- ⚡ FastAPI REST API
+- 💬 Modern responsive chat interface built with Next.js
+- 🏗️ Modular and scalable architecture
+- 🔄 Automated document ingestion pipeline
+
+---
 
 ## Tech Stack
 
-| Backend       | AI / RAG              | Frontend     |
-| ------------- | --------------------- | ------------ |
-| Python        | OpenAI                | Next.js      |
-| FastAPI       | Google Gemini         | React        |
-| Uvicorn       | Qdrant                | TypeScript   |
-| Pydantic      | Sentence Transformers | Tailwind CSS |
-| python-dotenv | Prompt Engineering    | Lucide React |
+| Backend | AI / RAG | Frontend |
+|----------|----------|----------|
+| Python | Google Gemini | Next.js |
+| FastAPI | OpenAI | React |
+| Uvicorn | Qdrant Cloud | TypeScript |
+| Pydantic | Sentence Transformers | Tailwind CSS |
+| python-dotenv | Prompt Engineering | Lucide React |
 
 ---
 
@@ -30,22 +42,25 @@ Built with a decoupled architecture featuring a **FastAPI backend**, **Next.js f
 
 ```text
                     Knowledge Base
-         (FAQs • Glossary • Regulations • PDFs)
+        (FAQs • Glossary • Regulations • PDFs)
                            │
                            ▼
-          Ingestion Pipeline (Cleaning • Chunking)
+           Data Ingestion & Cleaning Pipeline
                            │
                            ▼
-                    Embedding Generation
+                  Text Chunk Generation
                            │
                            ▼
-                   Qdrant Vector Database
+                 Embedding Generation
                            │
                            ▼
-                    Semantic Retriever
+                 Qdrant Cloud Vector DB
                            │
                            ▼
-               Prompt + Retrieved Context
+                 Semantic Retrieval (RAG)
+                           │
+                           ▼
+             Prompt + Retrieved Context
                            │
                            ▼
                Gemini / OpenAI (LLM Layer)
@@ -54,8 +69,28 @@ Built with a decoupled architecture featuring a **FastAPI backend**, **Next.js f
                   FastAPI REST Backend
                            │
                            ▼
-                  Next.js + React Client
+               Next.js + React Frontend
 ```
+
+---
+
+## Knowledge Base
+
+The assistant retrieves information from curated Colombian healthcare documentation, including:
+
+- Frequently Asked Questions (FAQs)
+- Healthcare glossary
+- Official healthcare documents
+- PDF regulations and guidance
+- Structured semantic chunks generated during preprocessing
+
+Before serving user requests, documents are:
+
+1. Cleaned and normalized
+2. Split into semantic chunks
+3. Converted into embeddings
+4. Indexed in Qdrant Cloud
+5. Retrieved through semantic similarity search
 
 ---
 
@@ -63,20 +98,29 @@ Built with a decoupled architecture featuring a **FastAPI backend**, **Next.js f
 
 ```text
 health-knowledge-assistant/
-
+│
 ├── backend/
 │   ├── src/
 │   │   ├── api/
 │   │   ├── ingestion/
 │   │   ├── rag/
+│   │   ├── llm/
 │   │   └── utils/
-│   ├── scripts/
-│   └── data/
+│   │
+│   ├── data/
+│   │   ├── raw/
+│   │   ├── processed/
+│   │   └── chunks/
+│   │
+│   ├── requirements.txt
+│   └── vercel.json
 │
 ├── frontend/
 │   ├── app/
 │   ├── components/
-│   └── services/
+│   ├── services/
+│   ├── public/
+│   └── vercel.json
 │
 └── README.md
 ```
@@ -86,18 +130,27 @@ health-knowledge-assistant/
 ## RAG Workflow
 
 ```text
-Documents
-   ↓
-Chunking
-   ↓
-Embeddings
-   ↓
-Qdrant
-   ↓
-Retriever
-   ↓
-LLM
-   ↓
+Raw Documents
+      │
+      ▼
+Document Processing
+      │
+      ▼
+Text Chunking
+      │
+      ▼
+Embedding Generation
+      │
+      ▼
+Qdrant Cloud
+      │
+      ▼
+Semantic Retrieval
+      │
+      ▼
+LLM Generation
+      │
+      ▼
 Answer + Sources
 ```
 
@@ -105,7 +158,9 @@ Answer + Sources
 
 ## API
 
-**POST** `/chat`
+### POST `/chat`
+
+Request
 
 ```json
 {
@@ -113,12 +168,19 @@ Answer + Sources
 }
 ```
 
+Example Response
+
 ```json
 {
+  "success": true,
   "answer": "...",
+  "confidence": 0.94,
+  "used_rag": true,
   "sources": [
     {
-      "source": "faq_health.json"
+      "title": "Health FAQ",
+      "location": "faq_health.json",
+      "score": 0.82
     }
   ]
 }
@@ -128,23 +190,57 @@ Answer + Sources
 
 ## Quick Start
 
-### Backend
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Deiby-Zair/health-knowledge-assistant.git
+
+cd health-knowledge-assistant
+```
+
+---
+
+### 2. Backend
 
 ```bash
 cd backend
 
-pip install -r requirements.txt
+python -m venv .venv
 
+source .venv/bin/activate      # Linux / macOS
+
+.venv\Scripts\activate         # Windows
+
+pip install -r requirements.txt
+```
+
+---
+
+### 3. Build the Knowledge Base
+
+Run the ingestion pipeline to process documents and populate the vector database.
+
+```bash
+python -m scripts.build_knowledge_base
+```
+
+---
+
+### 4. Start the API
+
+```bash
 uvicorn src.api.main:app --reload
 ```
 
-API documentation:
+Swagger documentation:
 
-```text
+```
 http://localhost:8000/docs
 ```
 
-### Frontend
+---
+
+### 5. Frontend
 
 ```bash
 cd frontend
@@ -154,19 +250,33 @@ npm install
 npm run dev
 ```
 
+Open:
+
+```
+http://localhost:3000
+```
+
 ---
 
 ## Environment Variables
 
-Backend
+### Backend
 
 ```env
 OPENAI_API_KEY=
+
 GEMINI_API_KEY=
+
 LLM_PROVIDER=gemini
+
+QDRANT_URL=
+
+QDRANT_API_KEY=
+
+QDRANT_COLLECTION=minsalud_rag
 ```
 
-Frontend
+### Frontend
 
 ```env
 NEXT_PUBLIC_API_URL=http://localhost:8000
@@ -174,17 +284,41 @@ NEXT_PUBLIC_API_URL=http://localhost:8000
 
 ---
 
-## Roadmap
+## Deployment
 
-* Conversation memory
-* Hybrid search
-* Streaming responses
-* Docker deployment
-* Authentication
-* Cloud vector database
+The application is deployed using a decoupled cloud architecture.
+
+| Component | Platform |
+|----------|----------|
+| Frontend | Vercel |
+| Backend | Vercel |
+| Vector Database | Qdrant Cloud |
+
+### Live Application
+
+🔗 **Application**
+
+https://health-knowledge-assistant-jz2og2brv-deibyzairs-projects.vercel.app/
 
 ---
 
-## License
+## Future Improvements
 
-This project is intended for educational and portfolio purposes. Responses are generated from curated healthcare knowledge sources and should not replace professional medical advice.
+- Conversation memory
+- Streaming responses
+- Hybrid search (semantic + keyword)
+- Authentication
+- Conversation history
+- Multi-language support
+- Additional healthcare datasets
+- Evaluation metrics for retrieval quality
+
+---
+
+## Disclaimer
+
+This project was developed for educational and portfolio purposes.
+
+Although responses are generated using curated Colombian healthcare information and Retrieval-Augmented Generation (RAG), they may contain inaccuracies or become outdated over time.
+
+Always consult official healthcare authorities or qualified medical professionals before making healthcare-related decisions.
