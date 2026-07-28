@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 from qdrant_client import QdrantClient
@@ -11,7 +12,10 @@ QDRANT_PATH = BASE_DIR / "qdrant_data"
 COLLECTION_NAME = "minsalud_rag"
 MIN_SCORE = 0.5
 
-qdrant = QdrantClient(path=str(QDRANT_PATH))
+qdrant = QdrantClient(
+    url=os.getenv("QDRANT_URL"),
+    api_key=os.getenv("QDRANT_API_KEY"),
+)
 embedder = get_embedding_provider()
 
 

@@ -1,4 +1,5 @@
 import json
+import os
 from pathlib import Path
 
 from qdrant_client import QdrantClient
@@ -15,8 +16,10 @@ INPUT_PDF = BASE_DIR / "data" / "chunks" / "pdf_chunks.json"
 
 def main():
     #  local conection
-    client = QdrantClient(path=str(QDRANT_PATH))
-
+    client = QdrantClient(
+        url=os.getenv("QDRANT_URL"),
+        api_key=os.getenv("QDRANT_API_KEY"),
+    )
     # Embeddings model
     embedder = get_embedding_provider()
 

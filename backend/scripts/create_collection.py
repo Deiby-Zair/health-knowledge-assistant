@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 from qdrant_client import QdrantClient
@@ -11,8 +12,10 @@ QDRANT_PATH = BASE_DIR / "backend" / "qdrant_data"
 def main():
     embedder = get_embedding_provider()
 
-    client = QdrantClient(path=str(QDRANT_PATH))
-
+    client = QdrantClient(
+        url=os.getenv("QDRANT_URL"),
+        api_key=os.getenv("QDRANT_API_KEY"),
+    )
     client.delete_collection("minsalud_rag")
 
     client.create_collection(

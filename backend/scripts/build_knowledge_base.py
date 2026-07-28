@@ -5,8 +5,8 @@ from backend.src.ingest.clean_faqs import main as clean_faqs
 from backend.src.ingest.clean_glossary import main as clean_glossary
 from backend.src.ingest.create_chunks import main as create_chunks
 
-from create_collection import main as create_collection
-from ingest_qdrant import main as ingest
+from backend.scripts.create_collection import main as create_collection
+from backend.scripts.ingest_qdrant import main as ingest
 
 def main():
     fetch_faqs()
