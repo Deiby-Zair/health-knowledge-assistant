@@ -3,8 +3,8 @@ from pathlib import Path
 
 from qdrant_client import QdrantClient
 
-from backend.src.embeddings.embedding_manager import get_embedding_provider
-from backend.src.rag.schemas import Source
+from src.embeddings.embedding_manager import get_embedding_provider
+from src.rag.schemas import Source
 
 BASE_DIR = Path(__file__).resolve().parents[2]
 QDRANT_PATH = BASE_DIR / "qdrant_data"

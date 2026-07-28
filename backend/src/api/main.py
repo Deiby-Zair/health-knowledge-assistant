@@ -1,7 +1,7 @@
 from fastapi import FastAPI
 from pydantic import BaseModel
 
-from backend.src.rag.rag_chain import ask
+from src.rag.rag_chain import ask
 
 app = FastAPI()
 

@@ -4,7 +4,7 @@ import logging
 import time
 from dataclasses import dataclass
 
-from backend.src.rag.llm_client import generate
+from src.rag.llm_client import generate
 
 logger = logging.getLogger(__name__)
 

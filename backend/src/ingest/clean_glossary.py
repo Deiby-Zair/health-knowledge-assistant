@@ -1,6 +1,6 @@
 import json
 from pathlib import Path
-from backend.src.utils.text_cleaning import clean_html
+from src.utils.text_cleaning import clean_html
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
