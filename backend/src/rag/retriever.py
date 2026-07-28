@@ -9,7 +9,7 @@ BASE_DIR = Path(__file__).resolve().parents[2]
 QDRANT_PATH = BASE_DIR / "qdrant_data"
 
 COLLECTION_NAME = "minsalud_rag"
-MIN_SCORE = 0.45
+MIN_SCORE = 0.5
 
 qdrant = QdrantClient(path=str(QDRANT_PATH))
 embedder = get_embedding_provider()
@@ -49,8 +49,15 @@ def retrieve_context(question: str, limit: int = 5):
     for r in results:
 
         source = Source(
-            title=r.payload.get("title", "Sin título"),
-            location=r.payload.get("location"),
+            title=r.payload.get("source", "Sin título"),
+            location = next(
+                (
+                    f"{k}: {r.payload[k]}"
+                    for k in ("page", "term", "question")
+                    if r.payload.get(k) is not None
+                ),
+                None,
+            ),
             score=round(r.score, 3),
         )
 

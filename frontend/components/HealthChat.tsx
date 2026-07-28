@@ -1,23 +1,35 @@
 'use client';
 
 import React, { useState, useRef, useEffect } from 'react';
-import { 
-  Send, 
-  Bot, 
-  User, 
-  Sparkles, 
-  ShieldAlert, 
-  RefreshCw, 
-  Stethoscope, 
-  HeartPulse 
+import {
+  Send,
+  Bot,
+  User,
+  Sparkles,
+  ShieldAlert,
+  RefreshCw,
+  Stethoscope,
+  HeartPulse
 } from 'lucide-react';
 import { Message, QuickPrompt } from '@/types/chat';
 import { sendHealthQuery } from '@/lib/api';
 
 const QUICK_PROMPTS: QuickPrompt[] = [
-  { id: '1', label: 'Prevención de Dengue', prompt: '¿Cuáles son las medidas preventivas clave contra el Dengue en la comunidad?' },
-  { id: '2', label: 'Esquema de Vacunación', prompt: '¿Cuál es la importancia de mantener el esquema de vacunación al día?' },
-  { id: '3', label: 'Estilos de Vida Saludables', prompt: '¿Qué recomendaciones hay para prevenir enfermedades cardiovasculares?' },
+  {
+    id: '1',
+    label: 'Cambio de EPS',
+    prompt: '¿Cómo puedo cambiarme de EPS?'
+  },
+  {
+    id: '2',
+    label: 'Cita médica',
+    prompt: '¿Cómo solicito una cita médica?'
+  },
+  {
+    id: '3',
+    label: 'EPS e IPS',
+    prompt: '¿Cuál es la diferencia entre una EPS y una IPS?'
+  },
 ];
 
 export default function HealthChat() {
@@ -25,7 +37,7 @@ export default function HealthChat() {
     {
       id: 'welcome',
       sender: 'agent',
-      content: '¡Hola! Soy tu asistente virtual del sector salud. ¿En qué puedo orientarte hoy sobre servicios, prevención o información general?',
+      content: '¡Hola! Soy tu asistente virtual del sector salud. ¿En qué puedo orientarte hoy sobre trámites, servicios o información general?',
       timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
     },
   ]);
@@ -57,11 +69,13 @@ export default function HealthChat() {
     setIsLoading(true);
 
     try {
-      const replyText = await sendHealthQuery(query);
+      const { reply, sources } = await sendHealthQuery(query);
+
       const agentMsg: Message = {
         id: (Date.now() + 1).toString(),
         sender: 'agent',
-        content: replyText,
+        content: reply,
+        sources,
         timestamp: new Date().toLocaleTimeString([], { hour: '2-digit', minute: '2-digit' }),
       };
       setMessages((prev) => [...prev, agentMsg]);
@@ -82,7 +96,7 @@ export default function HealthChat() {
 
   return (
     <div className="flex flex-col h-[85vh] max-w-4xl mx-auto bg-slate-50 border border-slate-200 rounded-2xl shadow-xl overflow-hidden">
-      
+
       {/* Header */}
       <header className="bg-gradient-to-r from-sky-700 via-teal-700 to-teal-800 text-white p-4 flex items-center justify-between shadow-md">
         <div className="flex items-center space-x-3">
@@ -122,34 +136,107 @@ export default function HealthChat() {
         {messages.map((msg) => (
           <div
             key={msg.id}
-            className={`flex items-start gap-3 ${
-              msg.sender === 'user' ? 'flex-row-reverse' : 'flex-row'
-            }`}
+            className={`flex items-start gap-3 ${msg.sender === 'user' ? 'flex-row-reverse' : 'flex-row'
+              }`}
           >
             {/* Avatar */}
             <div
-              className={`w-9 h-9 rounded-full flex items-center justify-center shrink-0 shadow-sm ${
-                msg.sender === 'user'
+              className={`w-9 h-9 rounded-full flex items-center justify-center shrink-0 shadow-sm ${msg.sender === 'user'
                   ? 'bg-sky-600 text-white'
                   : 'bg-teal-600 text-white'
-              }`}
+                }`}
             >
               {msg.sender === 'user' ? <User className="w-5 h-5" /> : <Bot className="w-5 h-5" />}
             </div>
 
             {/* Burbuja de Mensaje */}
             <div
-              className={`max-w-[80%] sm:max-w-[70%] rounded-2xl px-4 py-3 shadow-sm text-sm leading-relaxed ${
-                msg.sender === 'user'
+              className={`max-w-[80%] sm:max-w-[70%] rounded-2xl px-4 py-3 shadow-sm text-sm leading-relaxed ${msg.sender === 'user'
                   ? 'bg-sky-600 text-white rounded-tr-none'
                   : 'bg-white border border-slate-200/80 text-slate-800 rounded-tl-none'
-              }`}
+                }`}
             >
               <div className="whitespace-pre-wrap">{msg.content}</div>
+              {msg.sender === "agent" &&
+                msg.sources &&
+                msg.sources.length > 0 && (
+                  <div className="mt-5 pt-4 border-t border-slate-200">
+
+
+                    <div className="flex flex-wrap gap-2">
+                      {msg.sources.map((source, index) => (
+                        <div
+                          key={index}
+                          className="relative group"
+                        >
+                          {/* Chip */}
+                          <div
+                            className="
+                cursor-default
+                rounded-full
+                border border-slate-200
+                bg-slate-100
+                px-3 py-1
+                text-xs
+                text-slate-700
+                transition-all
+                hover:bg-slate-200
+              "
+                          >
+                            {source.title}
+                          </div>
+
+                          {/* Popover */}
+                          <div
+                            className="
+                absolute left-0 top-full mt-2
+                w-72
+                rounded-lg
+                border border-slate-200
+                bg-white
+                p-3
+                shadow-xl
+
+                invisible
+                opacity-0
+                translate-y-1
+
+                transition-all
+                duration-150
+
+                group-hover:visible
+                group-hover:opacity-100
+                group-hover:translate-y-0
+
+                z-20
+              "
+                          >
+                            <div className="text-sm font-semibold text-slate-800">
+                              {source.title}
+                            </div>
+
+                            {source.location && (
+                              <div className="mt-2 text-xs text-slate-600">
+                                <span className="font-medium">Ubicación:</span>{" "}
+                                {source.location}
+                              </div>
+                            )}
+
+                            {source.score !== undefined && (
+                              <div className="mt-1 text-xs text-slate-600">
+                                <span className="font-medium">Relevancia:</span>{" "}
+                                {(source.score * 100).toFixed(0)}%
+                              </div>
+                            )}
+                          </div>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                )}
               <span
-                className={`block text-[10px] mt-1.5 text-right ${
-                  msg.sender === 'user' ? 'text-sky-200' : 'text-slate-400'
-                }`}
+                className={`block text-[10px] mt-1.5 text-right ${msg.sender === 'user' ? 'text-sky-200' : 'text-slate-400'
+                  }`}
               >
                 {msg.timestamp}
               </span>

@@ -8,7 +8,6 @@ PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
 RAW_PDF_DIR = PROJECT_ROOT / "data" / "raw" / "pdfs"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed" / "pdfs"
-PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
 
 def clean_text(text: str) -> str:
@@ -89,36 +88,42 @@ def remove_repeated_headers_footers(pages: list[str]) -> list[str]:
     return cleaned_pages
 
 
-for pdf_path in RAW_PDF_DIR.glob("*.pdf"):
+def main():
+    PROCESSED_DIR.mkdir(parents=True, exist_ok=True)
 
-    reader = PdfReader(pdf_path)
+    for pdf_path in RAW_PDF_DIR.glob("*.pdf"):
 
-    raw_pages = [
-        clean_text(page.extract_text() or "")
-        for page in reader.pages
-    ]
+        reader = PdfReader(pdf_path)
 
-    cleaned_pages = remove_repeated_headers_footers(raw_pages)
+        raw_pages = [
+            clean_text(page.extract_text() or "")
+            for page in reader.pages
+        ]
 
-    pages = []
+        cleaned_pages = remove_repeated_headers_footers(raw_pages)
 
-    for page_number, text in enumerate(cleaned_pages, start=1):
+        pages = []
 
-        pages.append(
-            {
-                "page": page_number,
-                "text": text,
-                "char_count": len(text),
-                "word_count": len(text.split()),
-            }
+        for page_number, text in enumerate(cleaned_pages, start=1):
+
+            pages.append(
+                {
+                    "page": page_number,
+                    "text": text,
+                    "char_count": len(text),
+                    "word_count": len(text.split()),
+                }
+            )
+
+        output_path = PROCESSED_DIR / f"{pdf_path.stem}_pages.json"
+
+        with open(output_path, "w", encoding="utf-8") as f:
+            json.dump(pages, f, ensure_ascii=False, indent=2)
+
+        print(
+            f"Processed {pdf_path.name} "
+            f"({len(pages)} pages)"
         )
-
-    output_path = PROCESSED_DIR / f"{pdf_path.stem}_pages.json"
-
-    with open(output_path, "w", encoding="utf-8") as f:
-        json.dump(pages, f, ensure_ascii=False, indent=2)
-
-    print(
-        f"Processed {pdf_path.name} "
-        f"({len(pages)} pages)"
-    )
+        
+if __name__ == "__main__":
+    main()

@@ -1,6 +1,11 @@
-import { Message } from '@/types/chat';
+import { Source } from "@/types/chat";
 
-export async function sendHealthQuery(prompt: string): Promise<string> {
+type HealthQueryResponse = {
+  reply: string;
+  sources: Source[];
+};
+
+export async function sendHealthQuery(prompt: string): Promise<HealthQueryResponse> {
 
   const response = await fetch('/api/chat', {
     method: 'POST',
@@ -11,9 +16,9 @@ export async function sendHealthQuery(prompt: string): Promise<string> {
   });
 
   if (!response.ok) {
-    throw new Error('No se pudo conectar con el servicio de salud.');
+    throw new Error('No se pudo conectar con el servicio de información.');
   }
 
   const data = await response.json();
-  return data.reply;
+  return data;
 }

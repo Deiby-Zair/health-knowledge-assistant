@@ -9,4 +9,3 @@ class Source(BaseModel):
 class LLMResponse(BaseModel):
     answer: str = Field(description="Respuesta")
     sources: list[Source] = Field(default_factory=list)
-    confidence: float = Field(ge=0, le=1)

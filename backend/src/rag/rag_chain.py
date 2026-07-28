@@ -17,7 +17,6 @@ def ask(question: str) -> dict:
         {
             success,
             answer,
-            confidence,
             sources,
             used_rag,
             error
@@ -30,7 +29,6 @@ def ask(question: str) -> dict:
         return {
             "success": False,
             "answer": "Debes ingresar una pregunta.",
-            "confidence": 0.0,
             "sources": [],
             "used_rag": False,
             "error": "Empty question",
@@ -39,7 +37,7 @@ def ask(question: str) -> dict:
     try:
         context, sources = retrieve_context(
             question=question,
-            limit=10,
+            limit=5,
         )
 
     except Exception as e:
@@ -50,7 +48,6 @@ def ask(question: str) -> dict:
             "answer": (
                 "No fue posible consultar la base de conocimiento en este momento."
             ),
-            "confidence": 0.0,
             "sources": [],
             "used_rag": False,
             "error": str(e),
@@ -75,7 +72,6 @@ def ask(question: str) -> dict:
                 "No fue posible generar una respuesta en este momento. "
                 "El servicio de IA se encuentra temporalmente no disponible."
             ),
-            "confidence": 0.0,
             "sources": sources,
             "used_rag": has_context,
             "error": str(e),
@@ -88,7 +84,6 @@ def ask(question: str) -> dict:
                 "No fue posible generar una respuesta en este momento. "
                 "El servicio de IA se encuentra temporalmente no disponible."
             ),
-            "confidence": 0.0,
             "sources": sources,
             "used_rag": has_context,
             "error": response.error,
@@ -97,7 +92,6 @@ def ask(question: str) -> dict:
     return {
         "success": True,
         "answer": response.answer.answer,
-        "confidence": response.answer.confidence,
         "sources": sources,
         "used_rag": has_context,
         "error": None,
