@@ -4,17 +4,19 @@ version = "0.1.0"
 requires-python = ">=3.12"
 
 dependencies = [
-    "fastapi>=0.116.0",
-    "uvicorn>=0.35.0",
-    "qdrant-client>=1.15.0",
-    "google-genai>=1.0.0",
-    "openai>=1.0.0",
-    "requests>=2.32.0",
-    "PyPDF2>=3.0.0",
-    "python-dotenv>=1.1.0",
-    "beautifulsoup4>=4.13.0",
-    "langchain-text-splitters>=0.3.0"
+    fastapi>=0.116
+    uvicorn>=0.35
+    qdrant-client>=1.15
+    google-genai>=1.0
+    openai>=1.0
+    requests>=2.32
+    PyPDF2>=3.0
+    python-dotenv>=1.1
+    beautifulsoup4>=4.13
+    langchain-text-splitters>=0.3
+    pydantic-settings>=2.0
+    mistralai>=0.1.0
 ]
 
 [tool.vercel]
-entrypoint = "src.api.main:app"
+entrypoint = "src.main:app"
