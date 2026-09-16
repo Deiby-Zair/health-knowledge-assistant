@@ -1,8 +1,8 @@
 import logging
 
-from src.rag.prompt_builder import build_prompt
-from src.rag.retriever import retrieve_context
-from src.rag.llm_manager import generate_response
+from src.services.rag.prompt_builder import build_prompt
+from src.services.rag.retriever import retrieve_context
+from src.services.llm.llm_manager import generate_response
 
 logger = logging.getLogger(__name__)
 

@@ -1,4 +1,4 @@
-from src.rag.rag_chain import ask
+from src.services.rag.rag_chain import ask
 
 print("Asistente RAG - Ministerio de Salud")
 print("Escribe 'salir' para terminar.\n")

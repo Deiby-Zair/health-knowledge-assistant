@@ -1,21 +1,18 @@
-import os
-from pathlib import Path
-
 from qdrant_client import QdrantClient
 from qdrant_client.models import Distance, VectorParams
 
-from backend.src.embeddings.embedding_manager import get_embedding_provider
+from src.config import get_settings
+from src.services.embeddings.embedding_manager import get_embedding_provider
 
-BASE_DIR = Path(__file__).resolve().parents[2]
-QDRANT_PATH = BASE_DIR / "backend" / "qdrant_data"
 
 def main():
     embedder = get_embedding_provider()
 
     client = QdrantClient(
-        url=os.getenv("QDRANT_URL"),
-        api_key=os.getenv("QDRANT_API_KEY"),
+        url= get_settings().qdrant_url,
+        api_key=get_settings().qdrant_api_key,
     )
+    
     client.delete_collection("minsalud_rag")
 
     client.create_collection(

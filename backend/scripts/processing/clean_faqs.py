@@ -1,9 +1,10 @@
 import json
 from pathlib import Path
+
 from src.utils.text_cleaning import clean_html
 
-PROJECT_ROOT = Path(__file__).resolve().parents[2]
 
+PROJECT_ROOT = Path(__file__).resolve().parents[2]
 INPUT_FILE = PROJECT_ROOT / "data" / "raw" / "faq_raw.json"
 OUTPUT_FILE = PROJECT_ROOT / "data" / "processed" / "faq_clean.json"
 

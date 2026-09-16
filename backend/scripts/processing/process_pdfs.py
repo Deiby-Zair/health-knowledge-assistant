@@ -5,7 +5,6 @@ import json
 import re
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-
 RAW_PDF_DIR = PROJECT_ROOT / "data" / "raw" / "pdfs"
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed" / "pdfs"
 

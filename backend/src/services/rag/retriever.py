@@ -1,25 +1,22 @@
-import os
-from pathlib import Path
-
 from qdrant_client import QdrantClient
 
-from src.embeddings.embedding_manager import get_embedding_provider
-from src.rag.schemas import Source
-
-BASE_DIR = Path(__file__).resolve().parents[2]
-QDRANT_PATH = BASE_DIR / "qdrant_data"
+from src.config import get_settings
+from src.services.embeddings.embedding_manager import get_embedding_provider
+from src.models.schemas import Source
 
 COLLECTION_NAME = "minsalud_rag"
 MIN_SCORE = 0.5
 
-qdrant = QdrantClient(
-    url=os.getenv("QDRANT_URL"),
-    api_key=os.getenv("QDRANT_API_KEY"),
-)
-embedder = get_embedding_provider()
-
 
 def retrieve_context(question: str, limit: int = 5):
+
+    qdrant = QdrantClient(
+        url= get_settings().qdrant_url,
+        api_key=get_settings().qdrant_api_key,
+    )
+    
+    embedder = get_embedding_provider()
+
     query_vector = embedder.embed([question])[0]
 
     results = qdrant.query_points(

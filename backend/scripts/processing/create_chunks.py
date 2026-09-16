@@ -1,5 +1,6 @@
-from pathlib import Path
 import json
+
+from pathlib import Path
 
 from langchain_text_splitters import RecursiveCharacterTextSplitter
 
@@ -8,7 +9,6 @@ from langchain_text_splitters import RecursiveCharacterTextSplitter
 # =========================================================
 
 PROJECT_ROOT = Path(__file__).resolve().parents[2]
-
 PROCESSED_DIR = PROJECT_ROOT / "data" / "processed"
 CHUNKS_DIR = PROJECT_ROOT / "data" / "chunks"
 CHUNKS_DIR.mkdir(parents=True, exist_ok=True)

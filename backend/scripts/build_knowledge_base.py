@@ -1,12 +1,12 @@
-from backend.src.ingest.fetch_faqs import main as fetch_faqs
-from backend.src.ingest.fetch_glossary import main as fetch_glossary
-from backend.src.ingest.process_pdfs import main as process_pdfs
-from backend.src.ingest.clean_faqs import main as clean_faqs
-from backend.src.ingest.clean_glossary import main as clean_glossary
-from backend.src.ingest.create_chunks import main as create_chunks
+from scripts.sources.fetch_faqs import main as fetch_faqs
+from scripts.sources.fetch_glossary import main as fetch_glossary
+from scripts.processing.process_pdfs import main as process_pdfs
+from scripts.processing.clean_faqs import main as clean_faqs
+from scripts.processing.clean_glossary import main as clean_glossary
+from scripts.processing.create_chunks import main as create_chunks
 
-from backend.scripts.create_collection import main as create_collection
-from backend.scripts.ingest_qdrant import main as ingest
+from scripts.indexing.create_collection import main as create_collection
+from scripts.indexing.ingest_qdrant import main as ingest
 
 def main():
     fetch_faqs()
