@@ -7,6 +7,8 @@ class Settings(BaseSettings):
     embedding_provider: str = "sentence_transformers"
     embedding_model: str = "sentence-transformers/all-MiniLM-L6-v2"
 
+    mistral_api_key: str | None = None
+
     llm_provider: str = "gemini"
 
     openai_api_key: str | None = None

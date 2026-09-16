@@ -1,7 +1,6 @@
 from src.config import get_settings
 
 from .gemini_provider import GeminiEmbeddingProvider
-from .sentence_transformer_provider import SentenceTransformerProvider
 
 def get_embedding_provider():
 
@@ -11,9 +10,10 @@ def get_embedding_provider():
     model = settings.embedding_model
 
     print(f"Using embedding provider: {provider} with model: {model}")
-
-    if provider == "sentence_transformers":
-        return SentenceTransformerProvider(model)
+    
+    if provider == "mistral":
+        from .mistral_provider import MistralEmbeddingProvider
+        return MistralEmbeddingProvider(model)
 
     if provider == "gemini":
         from google import genai
